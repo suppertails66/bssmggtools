@@ -1,0 +1,50 @@
+********************************************************************************
+*                  Bishoujo Senshi Sailor Moon S (Game Gear)                   *
+*                     English Translation Patch Materials                      *
+********************************************************************************
+
+This package contains the source materials (code/art/script) for the English
+translation project for the Game Gear game Bishoujo Senshi Sailor Moon S.
+
+                    ****************************************
+                    *          Build Instructions          *
+                    ****************************************
+                    
+The build system is only set up for Unix-like systems, though none of the code
+is fundamentally dependent on this and could be ported with a bit of effort.
+You'll need GCC and libpng.
+
+Get a ROM image of the original game. It should match these specifications:
+
+  No-Intro filename: Bishoujo Senshi Sailor Moon S (Japan).gg
+  CRC32:             FE7374D2
+  MD5:               33CA01D639AEF0B2FECF2D059175ABBE
+  SHA-1:             824E463D0BE5C0E81205A475B5AD7E55C366E486
+
+Rename it "bssmgg.gg" and place it
+in the "bssmgg" folder. Then:
+
+$ cd bssmgg
+$ ./build.sh
+
+build.sh should then build all the necessary tools and output the translated
+ROM as bssmgg_en.gg.
+
+If you want to modify the project, check build.sh to see where the resources
+that get inserted into the game are coming from.
+
+                    ****************************************
+                    *              Licensing               *
+                    ****************************************
+
+See COPYING. Basically, everything by me (Supper) is GPLv3, and everything else
+is under the terms of whoever wrote it.
+
+                    ****************************************
+                    *               Credits                *
+                    ****************************************
+
+                               Filler -- Translation
+                               Supper -- Hacking
+                               cccmar -- Testing
+
