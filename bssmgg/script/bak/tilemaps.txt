@@ -1,0 +1,106 @@
+//=======================================
+// sailor team roulette 1
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73A1, 8, 2)
+
+// あたり！
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// sailor team roulette 2
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73AB, 16, 2)
+
+// オノオオ
+// はすれ！
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// sailor team roulette 3
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73BD, 32, 2)
+
+// オオオオオハオオ
+// タイムアッフ！！
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// sailor team roulette 4
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73DF, 18, 2)
+
+// ＰＥＲＦＥＣＴ！！
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// sailor team roulette 5
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73F3, 16, 2)
+
+// オオオオ
+// ヌヌヌヌ
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// sound test
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x7C9E6, 720, 2)
+
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　゛　　　　　　　　　　
+// 　　　　　　サウント　テスト　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　[star][star][star][star][star][star][star][star][star][star][star][star][star][star]　　　
+// 　　　[star]　　　　　　゛　　　　　[star]　　　
+// 　　　[star]　[rightarrow]　サウント　　００　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star]　　　こうかおん　００　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star]　　　おんせい　　００　[star]　　　
+// 　　　[star]　　　　゛　　　　　　　[star]　　　
+// 　　　[star]　　　もとる　　　　　　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star][star][star][star][star][star][star][star][star][star][star][star][star][star]　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 
+
+
+#ENDMSG()
+
+//=======================================
+// main menu @ 0x10042
+//=======================================
+
+//=======================================
+// credits are an object sprite state, save your sanity and just dump them manually
+//=======================================
+

@@ -1,0 +1,4215 @@
+//=======================================
+// quiz world standard question 0
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE0D, 24, 2)
+
+// セーラージュピターのピアスのかたちは？[br]
+// [end]
+
+[end]
+
+<$25><$8E>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE2B, 5, 2)
+
+// バラ[br]
+// [end]
+
+[end]
+
+<$30><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE30, 4, 2)
+
+// ほし[br]
+// [end]
+
+[end]
+
+<$34><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE34, 4, 2)
+
+// つき[br]
+// [end]
+
+[end]
+
+<$38><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 1
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE38, 37, 2)
+
+// うさぎちゃんがはるかさんとみちるさんにはじめてあったのはどこ？[br]
+// [end]
+
+[end]
+
+<$5D><$8E>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE63, 10, 2)
+
+// ゲームセンター[br]
+// [end]
+
+[end]
+
+<$6D><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE6D, 7, 2)
+
+// がっこう[br]
+// [end]
+
+[end]
+
+<$74><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE74, 7, 2)
+
+// ゆうえんち[br]
+// [end]
+
+[end]
+
+<$7B><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 2
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE7B, 23, 2)
+
+// なるちゃんのいちばんすきなたべものは？[br]
+// [end]
+
+[end]
+
+<$92><$8E>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE98, 8, 2)
+
+// エビフライ[br]
+// [end]
+
+[end]
+
+<$A0><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEA0, 8, 2)
+
+// カレーライス[br]
+// [end]
+
+[end]
+
+<$A8><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEA8, 9, 2)
+
+// ハンバーグ[br]
+// [end]
+
+[end]
+
+<$B1><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 3
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCEB1, 40, 2)
+
+// チビうさがはじめて２０せいきにきたときうさぎちゃんはなにをしていた？[br]
+// [end]
+
+[end]
+
+<$D9><$8E>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCEDF, 11, 2)
+
+// デートをしていた[br]
+// [end]
+
+[end]
+
+<$EA><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEEA, 12, 2)
+
+// べんきょうしていた[br]
+// [end]
+
+[end]
+
+<$F6><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEF6, 13, 2)
+
+// まんがをよんでいた[br]
+// [end]
+
+[end]
+
+<$03><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 4
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF03, 25, 2)
+
+// レイちゃんのかっている２わのカラスのなまえは？[br]
+// [end]
+
+[end]
+
+<$1C><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF22, 13, 2)
+
+// フォボス、ディモス[br]
+// [end]
+
+[end]
+
+<$2F><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF2F, 10, 2)
+
+// イオ、エウロパ[br]
+// [end]
+
+[end]
+
+<$39><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF39, 13, 2)
+
+// ガニメデ、カリスト[br]
+// [end]
+
+[end]
+
+<$46><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 5
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF46, 26, 2)
+
+// みなこちゃんのかよっているがっこうのなまえは？[br]
+// [end]
+
+[end]
+
+<$60><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF66, 15, 2)
+
+// しばこうえんちゅうがく[br]
+// [end]
+
+[end]
+
+<$75><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF75, 15, 2)
+
+// じゅうばんちゅうがく[br]
+// [end]
+
+[end]
+
+<$84><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF84, 15, 2)
+
+// しりつＴＡじょがくいん[br]
+// [end]
+
+[end]
+
+<$93><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 6
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF93, 31, 2)
+
+// はるかさんとみちるさんのかよっているがっこうのなまえは？[br]
+// [end]
+
+[end]
+
+<$B2><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCFB8, 11, 2)
+
+// むげんがくえん[br]
+// [end]
+
+[end]
+
+<$C3><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCFC3, 11, 2)
+
+// かげんがくえん[br]
+// [end]
+
+[end]
+
+<$CE><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCFCE, 12, 2)
+
+// じげんがくえん[br]
+// [end]
+
+[end]
+
+<$DA><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 7
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCFDA, 34, 2)
+
+// はるかさんがセーラーせんしになるまえにはいっていたぶかつは？[br]
+// [end]
+
+[end]
+
+<$FC><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD002, 10, 2)
+
+// りくじょうぶ[br]
+// [end]
+
+[end]
+
+<$0C><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD00C, 10, 2)
+
+// バスケットぶ[br]
+// [end]
+
+[end]
+
+<$16><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD016, 8, 2)
+
+// すいえいぶ[br]
+// [end]
+
+[end]
+
+<$1E><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 8
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD01E, 24, 2)
+
+// みなこちゃんがはいっていたぶかつはなに？[br]
+// [end]
+
+[end]
+
+<$36><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD03C, 10, 2)
+
+// バレーボール[br]
+// [end]
+
+[end]
+
+<$46><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD046, 11, 2)
+
+// ブラスバンド[br]
+// [end]
+
+[end]
+
+<$51><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD051, 6, 2)
+
+// やきゅう[br]
+// [end]
+
+[end]
+
+<$57><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 9
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD057, 36, 2)
+
+// セーラーちびムーンのひっさつわざのなまえはＯＯＯハートアタック？[br]
+// [end]
+
+[end]
+
+<$7B><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD081, 11, 2)
+
+// ピンクシュガー[br]
+// [end]
+
+[end]
+
+<$8C><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD08C, 8, 2)
+
+// ムーンライト[br]
+// [end]
+
+[end]
+
+<$94><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD094, 9, 2)
+
+// ピンクソルト[br]
+// [end]
+
+[end]
+
+<$9D><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 10
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD09D, 23, 2)
+
+// みちるさんがもっともとくいながっきは？[br]
+// [end]
+
+[end]
+
+<$B4><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0BA, 8, 2)
+
+// バイオリン[br]
+// [end]
+
+[end]
+
+<$C2><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0C2, 6, 2)
+
+// ピアノ[br]
+// [end]
+
+[end]
+
+<$C8><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0C8, 7, 2)
+
+// しゃくはち[br]
+// [end]
+
+[end]
+
+<$CF><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 11
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0CF, 17, 2)
+
+// まこちゃんがとくいなものは？[br]
+// [end]
+
+[end]
+
+<$E0><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0E6, 6, 2)
+
+// りょうり[br]
+// [end]
+
+[end]
+
+<$EC><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0EC, 8, 2)
+
+// ドライブ[br]
+// [end]
+
+[end]
+
+<$F4><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0F4, 8, 2)
+
+// べんきょう[br]
+// [end]
+
+[end]
+
+<$FC><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 12
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0FC, 28, 2)
+
+// タキシードかめんのしょうたいはつぎのうちどれ？[br]
+// [end]
+
+[end]
+
+<$18><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD11E, 9, 2)
+
+// ちば　まもる[br]
+// [end]
+
+[end]
+
+<$27><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD127, 10, 2)
+
+// さいたま　まもる[br]
+// [end]
+
+[end]
+
+<$31><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD131, 11, 2)
+
+// かながわ　まもる[br]
+// [end]
+
+[end]
+
+<$3C><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 13
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD13C, 31, 2)
+
+// ともえきょうじゅがさがしているピュアなこころとは？[br]
+// [end]
+
+[end]
+
+<$5B><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD161, 7, 2)
+
+// タリスマン[br]
+// [end]
+
+[end]
+
+<$68><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD168, 7, 2)
+
+// アリスマン[br]
+// [end]
+
+[end]
+
+<$6F><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD16F, 7, 2)
+
+// タンスマン[br]
+// [end]
+
+[end]
+
+<$76><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 14
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD176, 36, 2)
+
+// れいちゃんはかくれＯＯＯファンです。ＯＯＯとはつぎのうちどれ？[br]
+// [end]
+
+[end]
+
+<$9A><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1A0, 8, 2)
+
+// たからづか[br]
+// [end]
+
+[end]
+
+<$A8><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1A8, 7, 2)
+
+// プロレス[br]
+// [end]
+
+[end]
+
+<$AF><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1AF, 6, 2)
+
+// けいば[br]
+// [end]
+
+[end]
+
+<$B5><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 15
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1B5, 39, 2)
+
+// みなこちゃんががっこうのかえりによくあそんでかえるばしょはどこ？[br]
+// [end]
+
+[end]
+
+<$DC><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1E2, 10, 2)
+
+// ゲームセンター[br]
+// [end]
+
+[end]
+
+<$EC><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1EC, 7, 2)
+
+// ほんやさん[br]
+// [end]
+
+[end]
+
+<$F3><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1F3, 13, 2)
+
+// ボーリングじょう[br]
+// [end]
+
+[end]
+
+<$00><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 16
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD200, 27, 2)
+
+// ダイモーンがやられたときにさけぶことばは？[br]
+// [end]
+
+[end]
+
+<$1B><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD221, 7, 2)
+
+// ラブリー[br]
+// [end]
+
+[end]
+
+<$28><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD228, 8, 2)
+
+// プリティー[br]
+// [end]
+
+[end]
+
+<$30><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD230, 7, 2)
+
+// エブリー[br]
+// [end]
+
+[end]
+
+<$37><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 17
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD237, 31, 2)
+
+// アニメセーラームーンのしゅだいかは（ムーンライトＯＯＯ）[br]
+// [end]
+
+[end]
+
+<$56><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD25C, 7, 2)
+
+// でんせつ[br]
+// [end]
+
+[end]
+
+<$63><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD263, 7, 2)
+
+// ボックス[br]
+// [end]
+
+[end]
+
+<$6A><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD26A, 8, 2)
+
+// ものがたり[br]
+// [end]
+
+[end]
+
+<$72><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 18
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD272, 25, 2)
+
+// セーラームーンＳのＳとはなんのことでしょう？[br]
+// [end]
+
+[end]
+
+<$8B><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD291, 7, 2)
+
+// スーパー[br]
+// [end]
+
+[end]
+
+<$98><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD298, 8, 2)
+
+// スペシャル[br]
+// [end]
+
+[end]
+
+<$A0><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2A0, 8, 2)
+
+// スピリッツ[br]
+// [end]
+
+[end]
+
+<$A8><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 19
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2A8, 21, 2)
+
+// セーラーマーズのピアスのかたちは？[br]
+// [end]
+
+[end]
+
+<$BD><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2C3, 4, 2)
+
+// ほし[br]
+// [end]
+
+[end]
+
+<$C7><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2C7, 4, 2)
+
+// つき[br]
+// [end]
+
+[end]
+
+<$CB><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2CB, 5, 2)
+
+// バラ[br]
+// [end]
+
+[end]
+
+<$D0><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 20
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2D0, 15, 2)
+
+// なるちゃんのみょうじは？[br]
+// [end]
+
+[end]
+
+<$DF><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2E5, 6, 2)
+
+// おおさか[br]
+// [end]
+
+[end]
+
+<$EB><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2EB, 6, 2)
+
+// あおもり[br]
+// [end]
+
+[end]
+
+<$F1><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2F1, 6, 2)
+
+// いしかわ[br]
+// [end]
+
+[end]
+
+<$F7><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 21
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2F7, 21, 2)
+
+// うさぎちゃんのおかあさんのなまえは？[br]
+// [end]
+
+[end]
+
+<$0C><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD312, 5, 2)
+
+// いくこ[br]
+// [end]
+
+[end]
+
+<$17><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD317, 5, 2)
+
+// はるな[br]
+// [end]
+
+[end]
+
+<$1C><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD31C, 4, 2)
+
+// なる[br]
+// [end]
+
+[end]
+
+<$20><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 22
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD320, 20, 2)
+
+// うさぎちゃんのおとうとのなまえは？[br]
+// [end]
+
+[end]
+
+<$34><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD33A, 6, 2)
+
+// しんご[br]
+// [end]
+
+[end]
+
+<$40><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD340, 5, 2)
+
+// もとき[br]
+// [end]
+
+[end]
+
+<$45><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD345, 5, 2)
+
+// まもる[br]
+// [end]
+
+[end]
+
+<$4A><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 23
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD34A, 28, 2)
+
+// うさぎちゃんのクラスメイトのうみのくんのなまえは？[br]
+// [end]
+
+[end]
+
+<$66><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD36C, 6, 2)
+
+// ぐりお[br]
+// [end]
+
+[end]
+
+<$72><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD372, 5, 2)
+
+// くにお[br]
+// [end]
+
+[end]
+
+<$77><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD377, 5, 2)
+
+// ふみお[br]
+// [end]
+
+[end]
+
+<$7C><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 24
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD37C, 25, 2)
+
+// レイちゃんのかよっているがっこうのなまえは？[br]
+// [end]
+
+[end]
+
+<$95><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD39B, 15, 2)
+
+// しりつＴＡじょがくいん[br]
+// [end]
+
+[end]
+
+<$AA><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3AA, 15, 2)
+
+// じゅうばんちゅうがく[br]
+// [end]
+
+[end]
+
+<$B9><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3B9, 15, 2)
+
+// しばこうえんちゅうがく[br]
+// [end]
+
+[end]
+
+<$C8><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 25
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD3C8, 29, 2)
+
+// うさぎちゃんとおなじがっこうにかよっているこは？[br]
+// [end]
+
+[end]
+
+<$E5><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD3EB, 9, 2)
+
+// みずの　あみ[br]
+// [end]
+
+[end]
+
+<$F4><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3F4, 9, 2)
+
+// あいの　みなこ[br]
+// [end]
+
+[end]
+
+<$FD><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3FD, 7, 2)
+
+// ひの　レイ[br]
+// [end]
+
+[end]
+
+<$04><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 26
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD404, 22, 2)
+
+// あみちゃんがしょうらいなりたいものは？[br]
+// [end]
+
+[end]
+
+<$1A><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD420, 8, 2)
+
+// おいしゃさん[br]
+// [end]
+
+[end]
+
+<$28><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD428, 11, 2)
+
+// そうりだいじん[br]
+// [end]
+
+[end]
+
+<$33><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD433, 10, 2)
+
+// サッカーせんしゅ[br]
+// [end]
+
+[end]
+
+<$3D><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 27
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD43D, 38, 2)
+
+// ミュージカルセーラームーンのしゅつえんアイドルはつぎのうちだれ？[br]
+// [end]
+
+[end]
+
+<$63><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD469, 11, 2)
+
+// さくらっこくらぶ[br]
+// [end]
+
+[end]
+
+<$74><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD474, 9, 2)
+
+// おとめじゅく[br]
+// [end]
+
+[end]
+
+<$7D><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD47D, 11, 2)
+
+// おにゃんこくらぶ[br]
+// [end]
+
+[end]
+
+<$88><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 28
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD488, 20, 2)
+
+// つきのおうこくのじょうおうさまは？[br]
+// [end]
+
+[end]
+
+<$9C><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4A2, 11, 2)
+
+// クイーンセレニティ[br]
+// [end]
+
+[end]
+
+<$AD><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4AD, 10, 2)
+
+// クイーンビィー[br]
+// [end]
+
+[end]
+
+<$B7><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4B7, 9, 2)
+
+// クイーンアント[br]
+// [end]
+
+[end]
+
+<$C0><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 29
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4C0, 20, 2)
+
+// ちきゅうのおうこくのおうじさまは？[br]
+// [end]
+
+[end]
+
+<$D4><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4DA, 10, 2)
+
+// エンディミオン[br]
+// [end]
+
+[end]
+
+<$E4><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4E4, 9, 2)
+
+// ディアブロ[br]
+// [end]
+
+[end]
+
+<$ED><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4ED, 8, 2)
+
+// マセラッティ[br]
+// [end]
+
+[end]
+
+<$F5><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 30
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4F5, 37, 2)
+
+// セーラームーンのもっているぎんすいしょうをおさめたペンダントは？[br]
+// [end]
+
+[end]
+
+<$1A><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD520, 10, 2)
+
+// クリスタルスター[br]
+// [end]
+
+[end]
+
+<$2A><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD52A, 14, 2)
+
+// ダイアモンドヘッド[br]
+// [end]
+
+[end]
+
+<$38><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD538, 8, 2)
+
+// キャッツアイ[br]
+// [end]
+
+[end]
+
+<$40><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 31
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD540, 16, 2)
+
+// うさぎちゃんのせいざは？[br]
+// [end]
+
+[end]
+
+<$50><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD556, 6, 2)
+
+// カニざ[br]
+// [end]
+
+[end]
+
+<$5C><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD55C, 6, 2)
+
+// ししざ[br]
+// [end]
+
+[end]
+
+<$62><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD562, 7, 2)
+
+// おとめざ[br]
+// [end]
+
+[end]
+
+<$69><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 32
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD569, 15, 2)
+
+// うさぎちゃんのしゅみは？[br]
+// [end]
+
+[end]
+
+<$78><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD57E, 6, 2)
+
+// ねること[br]
+// [end]
+
+[end]
+
+<$84><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD584, 7, 2)
+
+// スポーツ[br]
+// [end]
+
+[end]
+
+<$8B><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD58B, 8, 2)
+
+// べんきょう[br]
+// [end]
+
+[end]
+
+<$93><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 33
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD593, 20, 2)
+
+// うさぎちゃんのすきなたべものは？[br]
+// [end]
+
+[end]
+
+<$A7><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5AD, 9, 2)
+
+// アイスクリーム[br]
+// [end]
+
+[end]
+
+<$B6><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5B6, 7, 2)
+
+// だいふく[br]
+// [end]
+
+[end]
+
+<$BD><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5BD, 10, 2)
+
+// やきまんじゅう[br]
+// [end]
+
+[end]
+
+<$C7><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 34
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5C7, 21, 2)
+
+// うさぎちゃんのきらいなたべものは？[br]
+// [end]
+
+[end]
+
+<$DC><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5E2, 7, 2)
+
+// にんじん[br]
+// [end]
+
+[end]
+
+<$E9><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5E9, 6, 2)
+
+// やきいも[br]
+// [end]
+
+[end]
+
+<$EF><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5EF, 5, 2)
+
+// トマト[br]
+// [end]
+
+[end]
+
+<$F4><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 35
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5F4, 16, 2)
+
+// うさぎちゃんのモットーは？[br]
+// [end]
+
+[end]
+
+<$04><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD60A, 10, 2)
+
+// ねるこはそだつ[br]
+// [end]
+
+[end]
+
+<$14><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD614, 11, 2)
+
+// いちにちいちぜん[br]
+// [end]
+
+[end]
+
+<$1F><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD61F, 13, 2)
+
+// しょぎょうむじょう[br]
+// [end]
+
+[end]
+
+<$2C><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 36
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD62C, 25, 2)
+
+// みなこちゃんといつもいっしょにいるしろねこは？[br]
+// [end]
+
+[end]
+
+<$45><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD64B, 7, 2)
+
+// アルテミス[br]
+// [end]
+
+[end]
+
+<$52><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD652, 6, 2)
+
+// アラミス[br]
+// [end]
+
+[end]
+
+<$58><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD658, 7, 2)
+
+// ティラミス[br]
+// [end]
+
+[end]
+
+<$5F><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 37
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD65F, 24, 2)
+
+// うさぎちゃんのよくいくゲームセンターは？[br]
+// [end]
+
+[end]
+
+<$77><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD67D, 6, 2)
+
+// クラウン[br]
+// [end]
+
+[end]
+
+<$83><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD683, 8, 2)
+
+// アシャンティ[br]
+// [end]
+
+[end]
+
+<$8B><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD68B, 9, 2)
+
+// パラダイス[br]
+// [end]
+
+[end]
+
+<$94><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 38
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD694, 35, 2)
+
+// みなこちゃんがはるかさんとしょうぶしてまけたレースゲームは？[br]
+// [end]
+
+[end]
+
+<$B7><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6BD, 16, 2)
+
+// グッドドライビング[br]
+// [end]
+
+[end]
+
+<$CD><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6CD, 11, 2)
+
+// デイトナ２０００[br]
+// [end]
+
+[end]
+
+<$D8><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6D8, 10, 2)
+
+// トップランナー[br]
+// [end]
+
+[end]
+
+<$E2><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 39
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6E2, 14, 2)
+
+// あみちゃんのせいざは？[br]
+// [end]
+
+[end]
+
+<$F0><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6F6, 7, 2)
+
+// おとめざ[br]
+// [end]
+
+[end]
+
+<$FD><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6FD, 7, 2)
+
+// やぎざ[br]
+// [end]
+
+[end]
+
+<$04><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD704, 7, 2)
+
+// おうしざ[br]
+// [end]
+
+[end]
+
+<$0B><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 40
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD70B, 14, 2)
+
+// レイちゃんのせいざは？[br]
+// [end]
+
+[end]
+
+<$19><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD71F, 9, 2)
+
+// おひつじざ[br]
+// [end]
+
+[end]
+
+<$28><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD728, 10, 2)
+
+// みずがめざ[br]
+// [end]
+
+[end]
+
+<$32><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD732, 9, 2)
+
+// てんびんざ[br]
+// [end]
+
+[end]
+
+<$3B><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 41
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD73B, 14, 2)
+
+// まこちゃんのせいざは？[br]
+// [end]
+
+[end]
+
+<$49><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD74F, 6, 2)
+
+// いてざ[br]
+// [end]
+
+[end]
+
+<$55><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD755, 6, 2)
+
+// うおざ[br]
+// [end]
+
+[end]
+
+<$5B><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD75B, 8, 2)
+
+// ふたござ[br]
+// [end]
+
+[end]
+
+<$63><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 42
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD763, 15, 2)
+
+// みなこちゃんのせいざは？[br]
+// [end]
+
+[end]
+
+<$72><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD778, 9, 2)
+
+// てんびんざ[br]
+// [end]
+
+[end]
+
+<$81><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD781, 7, 2)
+
+// さそりざ[br]
+// [end]
+
+[end]
+
+<$88><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD788, 6, 2)
+
+// ししざ[br]
+// [end]
+
+[end]
+
+<$8E><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 43
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD78E, 18, 2)
+
+// くろねこのルナのなまえのいみは？[br]
+// [end]
+
+[end]
+
+<$A0><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7A6, 4, 2)
+
+// つき[br]
+// [end]
+
+[end]
+
+<$AA><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7AA, 4, 2)
+
+// ほし[br]
+// [end]
+
+[end]
+
+<$AE><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7AE, 6, 2)
+
+// たいよう[br]
+// [end]
+
+[end]
+
+<$B4><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 44
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7B4, 21, 2)
+
+// しろねこのアルテミスのなまえのいみは？[br]
+// [end]
+
+[end]
+
+<$C9><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7CF, 4, 2)
+
+// つき[br]
+// [end]
+
+[end]
+
+<$D3><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7D3, 4, 2)
+
+// ほし[br]
+// [end]
+
+[end]
+
+<$D7><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7D7, 6, 2)
+
+// たいよう[br]
+// [end]
+
+[end]
+
+<$DD><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 45
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7DD, 18, 2)
+
+// セーラームーンのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$EF><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7F5, 4, 2)
+
+// つき[br]
+// [end]
+
+[end]
+
+<$F9><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7F9, 4, 2)
+
+// ほし[br]
+// [end]
+
+[end]
+
+<$FD><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7FD, 6, 2)
+
+// たいよう[br]
+// [end]
+
+[end]
+
+<$03><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 46
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD803, 21, 2)
+
+// セーラーマーキュリーのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$18><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD81E, 6, 2)
+
+// すいせい[br]
+// [end]
+
+[end]
+
+<$24><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD824, 6, 2)
+
+// もくせい[br]
+// [end]
+
+[end]
+
+<$2A><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD82A, 6, 2)
+
+// どせい[br]
+// [end]
+
+[end]
+
+<$30><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 47
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD830, 19, 2)
+
+// セーラーマーズのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$43><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD849, 5, 2)
+
+// かせい[br]
+// [end]
+
+[end]
+
+<$4E><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD84E, 6, 2)
+
+// きんせい[br]
+// [end]
+
+[end]
+
+<$54><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD854, 6, 2)
+
+// もくせい[br]
+// [end]
+
+[end]
+
+<$5A><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 48
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD85A, 22, 2)
+
+// セーラージュピターのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$70><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD876, 6, 2)
+
+// もくせい[br]
+// [end]
+
+[end]
+
+<$7C><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD87C, 8, 2)
+
+// てんのうせい[br]
+// [end]
+
+[end]
+
+<$84><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD884, 5, 2)
+
+// かせい[br]
+// [end]
+
+[end]
+
+<$89><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 49
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD889, 20, 2)
+
+// セーラービーナスのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$9D><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8A3, 6, 2)
+
+// きんせい[br]
+// [end]
+
+[end]
+
+<$A9><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8A9, 6, 2)
+
+// どせい[br]
+// [end]
+
+[end]
+
+<$AF><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8AF, 6, 2)
+
+// すいせい[br]
+// [end]
+
+[end]
+
+<$B5><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 50
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8B5, 19, 2)
+
+// セーラーウラヌスのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$C8><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8CE, 8, 2)
+
+// てんのうせい[br]
+// [end]
+
+[end]
+
+<$D6><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8D6, 5, 2)
+
+// かせい[br]
+// [end]
+
+[end]
+
+<$DB><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8DB, 6, 2)
+
+// すいせい[br]
+// [end]
+
+[end]
+
+<$E1><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 51
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8E1, 22, 2)
+
+// セーラーネプチューンのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$F7><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8FD, 6, 2)
+
+// かいおう[br]
+// [end]
+
+[end]
+
+<$03><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD903, 6, 2)
+
+// てんのう[br]
+// [end]
+
+[end]
+
+<$09><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD909, 6, 2)
+
+// きんせい[br]
+// [end]
+
+[end]
+
+<$0F><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 52
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD90F, 20, 2)
+
+// セーラープルートのしゅごせいは？[br]
+// [end]
+
+[end]
+
+<$23><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD929, 8, 2)
+
+// めいおうせい[br]
+// [end]
+
+[end]
+
+<$31><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD931, 5, 2)
+
+// かせい[br]
+// [end]
+
+[end]
+
+<$36><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD936, 8, 2)
+
+// てんのうせい[br]
+// [end]
+
+[end]
+
+<$3E><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 53
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD93E, 15, 2)
+
+// つきのおうこくのなまえは？[br]
+// [end]
+
+[end]
+
+<$4D><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD953, 12, 2)
+
+// シルバーミレニアム[br]
+// [end]
+
+[end]
+
+<$5F><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD95F, 15, 2)
+
+// ゴールドキングダム[br]
+// [end]
+
+[end]
+
+<$6E><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD96E, 9, 2)
+
+// パールライヒ[br]
+// [end]
+
+[end]
+
+<$77><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 54
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD977, 34, 2)
+
+// ダークキングダムのディーディーガールズはなんにん？[br]
+// [end]
+
+[end]
+
+<$99><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD99F, 5, 2)
+
+// ５にん[br]
+// [end]
+
+[end]
+
+<$A4><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9A4, 5, 2)
+
+// ７にん[br]
+// [end]
+
+[end]
+
+<$A9><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9A9, 5, 2)
+
+// ３にん[br]
+// [end]
+
+[end]
+
+<$AE><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 55
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9AE, 14, 2)
+
+// ルナのひげのかずは？[br]
+// [end]
+
+[end]
+
+<$BC><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9C2, 6, 2)
+
+// ６ぽん[br]
+// [end]
+
+[end]
+
+<$C8><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9C8, 5, 2)
+
+// ２ほん[br]
+// [end]
+
+[end]
+
+<$CD><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9CD, 5, 2)
+
+// ４ほん[br]
+// [end]
+
+[end]
+
+<$D2><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 56
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9D2, 15, 2)
+
+// つきのおうこくのおしろは？[br]
+// [end]
+
+[end]
+
+<$E1><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9E7, 11, 2)
+
+// クリスタルパレス[br]
+// [end]
+
+[end]
+
+<$F2><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9F2, 11, 2)
+
+// ガイエスブルク[br]
+// [end]
+
+[end]
+
+<$FD><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9FD, 11, 2)
+
+// ホワイトキャッスル[br]
+// [end]
+
+[end]
+
+<$08><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 57
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA08, 27, 2)
+
+// セーラービーナスがしゅじんこうのゲームは？[br]
+// [end]
+
+[end]
+
+<$23><$9A>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA29, 9, 2)
+
+// セーラーブイ[br]
+// [end]
+
+[end]
+
+<$32><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA32, 15, 2)
+
+// ビーナスデッドヒート[br]
+// [end]
+
+[end]
+
+<$41><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA41, 10, 2)
+
+// ビーナスウォー[br]
+// [end]
+
+[end]
+
+<$4B><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 58
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9D2, 15, 2)
+
+// つきのおうこくのおしろは？[br]
+// [end]
+
+[end]
+
+<$E1><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9E7, 11, 2)
+
+// クリスタルパレス[br]
+// [end]
+
+[end]
+
+<$F2><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9F2, 11, 2)
+
+// ガイエスブルク[br]
+// [end]
+
+[end]
+
+<$FD><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9FD, 11, 2)
+
+// ホワイトキャッスル[br]
+// [end]
+
+[end]
+
+<$08><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 59
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA08, 27, 2)
+
+// セーラービーナスがしゅじんこうのゲームは？[br]
+// [end]
+
+[end]
+
+<$23><$9A>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA29, 9, 2)
+
+// セーラーブイ[br]
+// [end]
+
+[end]
+
+<$32><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA32, 15, 2)
+
+// ビーナスデッドヒート[br]
+// [end]
+
+[end]
+
+<$41><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA41, 10, 2)
+
+// ビーナスウォー[br]
+// [end]
+
+[end]
+
+<$4B><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world picture questions
+//=======================================
+
+// substring 0
+#STARTMSG(0xDA4B, 25, 2)
+
+// セーラーウラヌスのはいているくつはどれかしら？[end]
+
+[end]
+
+<$64><$9A>
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xDA64, 19, 2)
+
+// セーラーちびムーンをさがしてね。[end]
+
+[end]
+
+<$77><$9A>
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xDA77, 38, 2)
+
+// わたくし、セーラーネプチューンになるのにつかうスティックはどれかしら？[end]
+
+[end]
+
+<$9D><$9A>
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0xDA9D, 27, 2)
+
+// スーパーセーラームーンになるのにひつようなものは？[end]
+
+[end]
+
+<$B8><$9A>
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0xDAB8, 27, 2)
+
+// ぶきみな（ともえきょうじゅ）はどのひとかしら？[end]
+
+[end]
+
+<$D3><$9A>
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0xDAD3, 23, 2)
+
+// あたし、セーラーちびムーンはどーれだ？[end]
+
+[end]
+
+<$EA><$9A>
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0xDAEA, 36, 2)
+
+// ちびうさちゃんのパパ（キングエンディミオン）をさがしてね。[end]
+
+[end]
+
+<$0E><$9B>
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0xDB0E, 21, 2)
+
+// スーパーセーラームーンはどぉれだ？[end]
+
+[end]
+
+<$23><$9B>
+
+#ENDMSG()
+
+//=======================================
+// endings
+//=======================================
+
+// substring 0
+#STARTMSG(0xDB63, 58, 2)
+
+// ふふふ・・・　すばらしい。[br]
+// せいはいさえ　てにいれれば・・[br]
+// かならずてにいれてやる。[br]
+// ハハハハハハ・・・・[br]
+// [end]
+
+[end]
+
+<$9D><$9B>
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xDB9D, 74, 2)
+
+// さいごまで[br]
+// がんばったわね！おめでとう　セーラーちびムーン[br]
+// こんどは　わたしセーラームーンがデス・バスターズをおしおきよ！[br]
+// [end]
+
+[end]
+
+<$E7><$9B>
+
+#ENDMSG()
+
+//=======================================
+// minigame menu
+//=======================================
+
+// substring 0
+#STARTMSG(0xDBE7, 26, 2)
+
+// [clear]
+// ルナＰボール[br]
+// 　のピクニック[br]
+// （ちびうさ）[end]
+
+[end]
+
+<$01><$9C>
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xDC01, 25, 2)
+
+// [clear]
+// ルナＰボール[br]
+// 　のピクニック[br]
+// （うさぎ）[end]
+
+[end]
+
+<$1A><$9C>
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xDC1A, 25, 2)
+
+// [clear]
+// タキシード[br]
+// かめんをさがせ[br]
+// （ちびうさ）[end]
+
+[end]
+
+<$33><$9C>
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0xDC33, 24, 2)
+
+// [clear]
+// タキシード[br]
+// かめんをさがせ[br]
+// （うさぎ）[end]
+
+[end]
+
+<$4B><$9C>
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0xDC4B, 25, 2)
+
+// [clear]
+// セーラーチーム[br]
+// 　のルーレット[br]
+// （ちびうさ）[end]
+
+[end]
+
+<$64><$9C>
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0xDC64, 24, 2)
+
+// [clear]
+// セーラーチーム[br]
+// 　のルーレット[br]
+// （うさぎ）[end]
+
+[end]
+
+<$7C><$9C>
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0xDC7C, 19, 2)
+
+// [clear]
+// クイズワールド[br]
+// （ちびうさ）[end]
+
+[end]
+
+<$8F><$9C>
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0xDC8F, 18, 2)
+
+// [clear]
+// クイズワールド[br]
+// （うさぎ）[end]
+
+[end]
+
+<$A1><$9C>
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0xDCA1, 11, 2)
+
+// [clear]
+// タイトルにもどる[end]
+
+[end]
+
+<$AC><$9C>
+
+#ENDMSG()
+
+//=======================================
+// find tuxedo mask
+//=======================================
+
+// substring 0
+#STARTMSG(0x23E49, 6, 2)
+
+// あたり！！[end]
+
+[end]
+
+<$4F><$BE>
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0x23E4F, 7, 2)
+
+// おしえなーい[end]
+
+[end]
+
+<$56><$BE>
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0x23E56, 10, 2)
+
+// うえのほうにいるよ[end]
+
+[end]
+
+<$60><$BE>
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x23E60, 10, 2)
+
+// したのほうにいるよ[end]
+
+[end]
+
+<$6A><$BE>
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x23E6A, 11, 2)
+
+// みぎのほうにいるよ[end]
+
+[end]
+
+<$75><$BE>
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x23E75, 12, 2)
+
+// ひだりのほうにいるよ[end]
+
+[end]
+
+<$81><$BE>
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x23E81, 11, 2)
+
+// このかいにはいないよ[end]
+
+[end]
+
+<$8C><$BE>
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x23E8C, 9, 2)
+
+// このかいにいるよ[end]
+
+[end]
+
+<$95><$BE>
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x23E95, 8, 2)
+
+// １かいにいるよ[end]
+
+[end]
+
+<$9D><$BE>
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x23E9D, 8, 2)
+
+// ２かいにいるよ[end]
+
+[end]
+
+<$A5><$BE>
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x23EA5, 8, 2)
+
+// ３かいにいるよ[end]
+
+[end]
+
+<$AD><$BE>
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x23EAD, 8, 2)
+
+// ４かいにいるよ[end]
+
+[end]
+
+<$B5><$BE>
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x23EB5, 8, 2)
+
+// ５かいにいるよ[end]
+
+[end]
+
+<$BD><$BE>
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x23EBD, 17, 2)
+
+// ははは　またあおう[br]
+// さらばだ[end]
+
+[end]
+
+<$CE><$BE>
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x23ECE, 17, 2)
+
+// ざんねん[br]
+// みつけられなかったね[end]
+
+[end]
+
+<$DF><$BE>
+
+#ENDMSG()
+
+//=======================================
+// minigame intro strings
+//=======================================
+
+// substring 0
+#STARTMSG(0x3C028, 102, 2)
+
+// ルナとアルテミスに[br]
+// ぶつからないように[br]
+// ルナピーボールを[br]
+// ゴールまでつれて[br]
+// いってね。[br]
+// [wait]
+
+[wait]
+
+// ２ボタンでみぎに、[br]
+// １ボタンでひだりに[br]
+// うごくわよ。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+
+[end]
+
+<$8E><$80>
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0x3C08E, 104, 2)
+
+// ルナとアルテミスに[br]
+// ぶつからないように[br]
+// ルナピーボールを[br]
+// ゴールまで、つれて[br]
+// いってくれ。[br]
+// [wait]
+
+[wait]
+
+// ２ボタンでみぎに、[br]
+// １ボタンでひだりに[br]
+// うごくよ。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくれ。[end]
+
+[end]
+
+<$F6><$80>
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0x3C0F6, 135, 2)
+
+// マンションにかくれ[br]
+// たタキシードかめん[br]
+// をさがすのよ。[br]
+// [wait]
+
+[wait]
+
+// ドアのまえでボタン[br]
+// をおせば、あけるこ[br]
+// とができるよ。[br]
+// [wait]
+
+[wait]
+
+// そのとき、セーラー[br]
+// せんしが、ヒントを[br]
+// おしえてくれるよ。[br]
+// [wait]
+
+[wait]
+
+// ５かいまでにさがし[br]
+// だしてね。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+
+[end]
+
+<$7D><$81>
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x3C17D, 116, 2)
+
+// わたしをみつけて[br]
+// みたまえ。[br]
+// [wait]
+
+[wait]
+
+// ドアのまえでボタン[br]
+// をおせば、あけるこ[br]
+// とができる。[br]
+// [wait]
+
+[wait]
+
+// そのとき、セーラー[br]
+// せんしが、ヒントを[br]
+// おしえてくれる[br]
+// だろう。[br]
+// [wait]
+
+[wait]
+
+// チャンスは４かいだ。[wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくれ。[end]
+
+[end]
+
+<$F1><$81>
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x3C1F1, 86, 2)
+
+// ルーレットをとめて[br]
+// なんにんのセーラー[br]
+// せんしを、あてられ[br]
+// るかな？[br]
+// [wait]
+
+[wait]
+
+// あたったら、つぎの[br]
+// セーラーせんしが[br]
+// ひょうじされるよ。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+
+[end]
+
+<$47><$82>
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x3C247, 92, 2)
+
+// ルーレットをとめて[br]
+// なんにんのセーラー[br]
+// せんしを、あてられ[br]
+// るかしら？[br]
+// [wait]
+
+[wait]
+
+// あたれば、つぎの[br]
+// セーラーせんしが[br]
+// ひょうじされますわ。[wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくださいね。[end]
+
+[end]
+
+<$A3><$82>
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x3C2A3, 39, 2)
+
+// これから３たくの[br]
+// クイズをだします。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+
+[end]
+
+<$CA><$82>
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x3C2CA, 43, 2)
+
+// これから３たくの[br]
+// クイズをだします。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてください。[end]
+
+[end]
+
+<$F5><$82>
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x3C2F5, 39, 2)
+
+// あなたのうんせいを[br]
+// うらなってあげる。[br]
+// [wait]
+
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+
+[end]
+
+<$1C><$83>
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x3C31C, 31, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+
+[wait]
+
+// さあ、ライフを[br]
+// かいふくして。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$3B><$83>
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x3C33B, 36, 2)
+
+// さあ、[br]
+// ボーナスゲームだ！[br]
+// [wait]
+
+[wait]
+
+// ライフがかいふく[br]
+// するぞ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$5F><$83>
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x3C35F, 31, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+
+[wait]
+
+// ライフがかいふく[br]
+// するわよ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$7E><$83>
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x3C37E, 36, 2)
+
+// さあ、[br]
+// ボーナスゲームだ！[br]
+// [wait]
+
+[wait]
+
+// ライフがかいふく[br]
+// するぞ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$A2><$83>
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x3C3A2, 42, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+
+[wait]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいるわ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$CC><$83>
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x3C3CC, 44, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+
+[wait]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいりますわ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$F8><$83>
+
+#ENDMSG()
+
+// substring 15
+#STARTMSG(0x3C3F8, 42, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+
+[wait]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいるわ。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$22><$84>
+
+#ENDMSG()
+
+// substring 16
+#STARTMSG(0x3C422, 44, 2)
+
+// ボーナスゲームです。[wait]
+
+[wait]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいります。[br]
+// [wait]
+
+[wait]
+
+// [end]
+
+[end]
+
+<$4E><$84>
+
+#ENDMSG()
+

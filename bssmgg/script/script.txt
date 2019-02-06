@@ -1,0 +1,4189 @@
+
+//#SETSIZE(112, 13)
+#SETSIZE(112, 7)
+#SETBREAKMODE(DOUBLE)
+
+//=======================================
+// quiz world dummy null entry
+//=======================================
+
+// substring 0
+#STARTMSG(0x77ED, 1, 1)
+
+// [end]
+
+[end]
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 0
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE0D, 24, 2)
+
+// セーラージュピターのピアスのかたちは？[br]
+// [end]
+What shape are Sailor Jupiter's earrings?
+[end]
+
+<$25><$8E>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE2B, 5, 2)
+
+// バラ[br]
+// [end]
+Roses
+[end]
+
+<$30><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE30, 4, 2)
+
+// ほし[br]
+// [end]
+Stars
+[end]
+
+<$34><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE34, 4, 2)
+
+// つき[br]
+// [end]
+Moons
+[end]
+
+<$38><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 1
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE38, 37, 2)
+
+// うさぎちゃんがはるかさんとみちるさんにはじめてあったのはどこ？[br]
+// [end]
+Where did Usagi first meet Haruka and Michiru?
+[end]
+
+<$5D><$8E>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE63, 10, 2)
+
+// ゲームセンター[br]
+// [end]
+The arcade
+[end]
+
+<$6D><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE6D, 7, 2)
+
+// がっこう[br]
+// [end]
+At school
+[end]
+
+<$74><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCE74, 7, 2)
+
+// ゆうえんち[br]
+// [end]
+The theme park
+[end]
+
+<$7B><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 2
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE7B, 23, 2)
+
+// なるちゃんのいちばんすきなたべものは？[br]
+// [end]
+What is Naru's favorite food?
+[end]
+
+<$92><$8E>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCE98, 8, 2)
+
+// エビフライ[br]
+// [end]
+Fried shrimp
+[end]
+
+<$A0><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEA0, 8, 2)
+
+// カレーライス[br]
+// [end]
+Curry and rice
+[end]
+
+<$A8><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEA8, 9, 2)
+
+// ハンバーグ[br]
+// [end]
+Hamburgers
+[end]
+
+<$B1><$8E>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 3
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCEB1, 40, 2)
+
+// チビうさがはじめて２０せいきにきたときうさぎちゃんはなにをしていた？[br]
+// [end]
+What was Usagi doing when Chibiusa first came to the twentieth century?
+[end]
+
+<$D9><$8E>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCEDF, 11, 2)
+
+// デートをしていた[br]
+// [end]
+Going on a date
+[end]
+
+<$EA><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEEA, 12, 2)
+
+// べんきょうしていた[br]
+// [end]
+Studying
+[end]
+
+<$F6><$8E>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCEF6, 13, 2)
+
+// まんがをよんでいた[br]
+// [end]
+Reading comics
+[end]
+
+<$03><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 4
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF03, 25, 2)
+
+// レイちゃんのかっている２わのカラスのなまえは？[br]
+// [end]
+What are the names of Rei's two pet crows?
+[end]
+
+<$1C><$8F>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF22, 13, 2)
+
+// フォボス、ディモス[br]
+// [end]
+Phobos and Deimos
+[end]
+
+<$2F><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF2F, 10, 2)
+
+// イオ、エウロパ[br]
+// [end]
+Io and Europa
+[end]
+
+<$39><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF39, 13, 2)
+
+// ガニメデ、カリスト[br]
+// [end]
+Ganymede and Callisto
+[end]
+
+<$46><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 5
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF46, 26, 2)
+
+// みなこちゃんのかよっているがっこうのなまえは？[br]
+// [end]
+What is the name of Minako's school?
+[end]
+
+<$60><$8F>
+
+#ENDMSG()
+
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF66, 15, 2)
+
+// しばこうえんちゅうがく[br]
+// [end]
+Shiba Koen Middle School
+[end]
+
+<$75><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF75, 15, 2)
+
+// じゅうばんちゅうがく[br]
+// [end]
+Juuban Middle School
+[end]
+
+<$84><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCF84, 15, 2)
+
+// しりつＴＡじょがくいん[br]
+// [end]
+TA Private Girls' Academy
+[end]
+
+<$93><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 6
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCF93, 31, 2)
+
+// はるかさんとみちるさんのかよっているがっこうのなまえは？[br]
+// [end]
+What is the name of Haruka and Michiru's school?
+[end]
+
+<$B2><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCFB8, 11, 2)
+
+// むげんがくえん[br]
+// [end]
+Mugen Academy
+[end]
+
+<$C3><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCFC3, 11, 2)
+
+// かげんがくえん[br]
+// [end]
+Kagen Academy
+[end]
+
+<$CE><$8F>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xCFCE, 12, 2)
+
+// じげんがくえん[br]
+// [end]
+Jigen Academy
+[end]
+
+<$DA><$8F>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 7
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xCFDA, 34, 2)
+
+// はるかさんがセーラーせんしになるまえにはいっていたぶかつは？[br]
+// [end]
+What club did Haruka join before becoming a Sailor Senshi?
+[end]
+
+<$FC><$8F>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD002, 10, 2)
+
+// りくじょうぶ[br]
+// [end]
+Track and Field Club
+[end]
+
+<$0C><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD00C, 10, 2)
+
+// バスケットぶ[br]
+// [end]
+Basketball Club
+[end]
+
+<$16><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD016, 8, 2)
+
+// すいえいぶ[br]
+// [end]
+Swimming Club
+[end]
+
+<$1E><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 8
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD01E, 24, 2)
+
+// みなこちゃんがはいっていたぶかつはなに？[br]
+// [end]
+What is Minako's after-school club activity?
+[end]
+
+<$36><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD03C, 10, 2)
+
+// バレーボール[br]
+// [end]
+Volleyball
+[end]
+
+<$46><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD046, 11, 2)
+
+// ブラスバンド[br]
+// [end]
+Brass band
+[end]
+
+<$51><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD051, 6, 2)
+
+// やきゅう[br]
+// [end]
+Baseball
+[end]
+
+<$57><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 9
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD057, 36, 2)
+
+// セーラーちびムーンのひっさつわざのなまえはＯＯＯハートアタック？[br]
+// [end]
+The name of Sailor Chibi Moon's special move is _____ Heart Attack.
+[end]
+
+<$7B><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD081, 11, 2)
+
+// ピンクシュガー[br]
+// [end]
+Pink Sugar
+[end]
+
+<$8C><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD08C, 8, 2)
+
+// ムーンライト[br]
+// [end]
+Moonlight
+[end]
+
+<$94><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD094, 9, 2)
+
+// ピンクソルト[br]
+// [end]
+Pink Salt
+[end]
+
+<$9D><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 10
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD09D, 23, 2)
+
+// みちるさんがもっともとくいながっきは？[br]
+// [end]
+What musical instrument is Michiru best at?
+[end]
+
+<$B4><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0BA, 8, 2)
+
+// バイオリン[br]
+// [end]
+Violin
+[end]
+
+<$C2><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0C2, 6, 2)
+
+// ピアノ[br]
+// [end]
+Piano
+[end]
+
+<$C8><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0C8, 7, 2)
+
+// しゃくはち[br]
+// [end]
+Bamboo flute
+[end]
+
+<$CF><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 11
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0CF, 17, 2)
+
+// まこちゃんがとくいなものは？[br]
+// [end]
+What is Makoto good at?
+[end]
+
+<$E0><$90>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0E6, 6, 2)
+
+// りょうり[br]
+// [end]
+Cooking
+[end]
+
+<$EC><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0EC, 8, 2)
+
+// ドライブ[br]
+// [end]
+Driving
+[end]
+
+<$F4><$90>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD0F4, 8, 2)
+
+// べんきょう[br]
+// [end]
+Studying
+[end]
+
+<$FC><$90>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 12
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD0FC, 28, 2)
+
+// タキシードかめんのしょうたいはつぎのうちどれ？[br]
+// [end]
+Which of the following is Tuxedo Mask's true identity?
+[end]
+
+<$18><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD11E, 9, 2)
+
+// ちば　まもる[br]
+// [end]
+Mamoru Chiba
+[end]
+
+<$27><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD127, 10, 2)
+
+// さいたま　まもる[br]
+// [end]
+Mamoru Saitama
+[end]
+
+<$31><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD131, 11, 2)
+
+// かながわ　まもる[br]
+// [end]
+Mamoru Kanagawa
+[end]
+
+<$3C><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 13
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD13C, 31, 2)
+
+// ともえきょうじゅがさがしているピュアなこころとは？[br]
+// [end]
+What are the Pure Hearts that Professor Tomoe is searching for called?
+[end]
+
+<$5B><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD161, 7, 2)
+
+// タリスマン[br]
+// [end]
+Talismans
+[end]
+
+<$68><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD168, 7, 2)
+
+// アリスマン[br]
+// [end]
+Alicemans
+[end]
+
+<$6F><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD16F, 7, 2)
+
+// タンスマン[br]
+// [end]
+Tansmans
+[end]
+
+<$76><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 14
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD176, 36, 2)
+
+// れいちゃんはかくれＯＯＯファンです。ＯＯＯとはつぎのうちどれ？[br]
+// [end]
+Rei is secretly a _____ fan. What goes in the blank?
+[end]
+
+<$9A><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1A0, 8, 2)
+
+// たからづか[br]
+// [end]
+Takarazuka
+[end]
+
+<$A8><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1A8, 7, 2)
+
+// プロレス[br]
+// [end]
+Professional wrestling
+[end]
+
+<$AF><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1AF, 6, 2)
+
+// けいば[br]
+// [end]
+Horse racing
+[end]
+
+<$B5><$91>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 15
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1B5, 39, 2)
+
+// みなこちゃんががっこうのかえりによくあそんでかえるばしょはどこ？[br]
+// [end]
+Where does Minako often hang out on her way back from school?
+[end]
+
+<$DC><$91>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD1E2, 10, 2)
+
+// ゲームセンター[br]
+// [end]
+The arcade
+[end]
+
+<$EC><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1EC, 7, 2)
+
+// ほんやさん[br]
+// [end]
+The bookstore
+[end]
+
+<$F3><$91>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD1F3, 13, 2)
+
+// ボーリングじょう[br]
+// [end]
+The bowling alley
+[end]
+
+<$00><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 16
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD200, 27, 2)
+
+// ダイモーンがやられたときにさけぶことばは？[br]
+// [end]
+What do Daimons shout when defeated?
+[end]
+
+<$1B><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD221, 7, 2)
+
+// ラブリー[br]
+// [end]
+Lovely
+[end]
+
+<$28><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD228, 8, 2)
+
+// プリティー[br]
+// [end]
+Pretty
+[end]
+
+<$30><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD230, 7, 2)
+
+// エブリー[br]
+// [end]
+Every
+[end]
+
+<$37><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 17
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD237, 31, 2)
+
+// アニメセーラームーンのしゅだいかは（ムーンライトＯＯＯ）[br]
+// [end]
+The Sailor Moon cartoon's theme song is {Moonlight _____}.
+[end]
+
+<$56><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD25C, 7, 2)
+
+// でんせつ[br]
+// [end]
+Densetsu
+[end]
+
+<$63><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD263, 7, 2)
+
+// ボックス[br]
+// [end]
+Box
+[end]
+
+<$6A><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD26A, 8, 2)
+
+// ものがたり[br]
+// [end]
+Monogatari
+[end]
+
+<$72><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 18
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD272, 25, 2)
+
+// セーラームーンＳのＳとはなんのことでしょう？[br]
+// [end]
+What does the {S} in {Sailor Moon S} stand for?
+[end]
+
+<$8B><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD291, 7, 2)
+
+// スーパー[br]
+// [end]
+Super
+[end]
+
+<$98><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD298, 8, 2)
+
+// スペシャル[br]
+// [end]
+Special
+[end]
+
+<$A0><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2A0, 8, 2)
+
+// スピリッツ[br]
+// [end]
+Spirits
+[end]
+
+<$A8><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 19
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2A8, 21, 2)
+
+// セーラーマーズのピアスのかたちは？[br]
+// [end]
+What shape are Sailor Mars' earrings?
+[end]
+
+<$BD><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2C3, 4, 2)
+
+// ほし[br]
+// [end]
+Stars
+[end]
+
+<$C7><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2C7, 4, 2)
+
+// つき[br]
+// [end]
+Moons
+[end]
+
+<$CB><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2CB, 5, 2)
+
+// バラ[br]
+// [end]
+Roses
+[end]
+
+<$D0><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 20
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2D0, 15, 2)
+
+// なるちゃんのみょうじは？[br]
+// [end]
+What is Naru's last name?
+[end]
+
+<$DF><$92>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2E5, 6, 2)
+
+// おおさか[br]
+// [end]
+Osaka
+[end]
+
+<$EB><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2EB, 6, 2)
+
+// あおもり[br]
+// [end]
+Aomori
+[end]
+
+<$F1><$92>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD2F1, 6, 2)
+
+// いしかわ[br]
+// [end]
+Ishikawa
+[end]
+
+<$F7><$92>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 21
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD2F7, 21, 2)
+
+// うさぎちゃんのおかあさんのなまえは？[br]
+// [end]
+What is Usagi's mother's name?
+[end]
+
+<$0C><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD312, 5, 2)
+
+// いくこ[br]
+// [end]
+Ikuko
+[end]
+
+<$17><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD317, 5, 2)
+
+// はるな[br]
+// [end]
+Haruna
+[end]
+
+<$1C><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD31C, 4, 2)
+
+// なる[br]
+// [end]
+Naru
+[end]
+
+<$20><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 22
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD320, 20, 2)
+
+// うさぎちゃんのおとうとのなまえは？[br]
+// [end]
+What is Usagi's little brother's name?
+[end]
+
+<$34><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD33A, 6, 2)
+
+// しんご[br]
+// [end]
+Shingo
+[end]
+
+<$40><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD340, 5, 2)
+
+// もとき[br]
+// [end]
+Motoki
+[end]
+
+<$45><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD345, 5, 2)
+
+// まもる[br]
+// [end]
+Mamoru
+[end]
+
+<$4A><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 23
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD34A, 28, 2)
+
+// うさぎちゃんのクラスメイトのうみのくんのなまえは？[br]
+// [end]
+What is Usagi's classmate Umino's first name?
+[end]
+
+<$66><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD36C, 6, 2)
+
+// ぐりお[br]
+// [end]
+Gurio
+[end]
+
+<$72><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD372, 5, 2)
+
+// くにお[br]
+// [end]
+Kunio
+[end]
+
+<$77><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD377, 5, 2)
+
+// ふみお[br]
+// [end]
+Fumio
+[end]
+
+<$7C><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 24
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD37C, 25, 2)
+
+// レイちゃんのかよっているがっこうのなまえは？[br]
+// [end]
+What's the name of Rei's school?
+[end]
+
+<$95><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD39B, 15, 2)
+
+// しりつＴＡじょがくいん[br]
+// [end]
+TA Private Girls' Academy
+[end]
+
+<$AA><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3AA, 15, 2)
+
+// じゅうばんちゅうがく[br]
+// [end]
+Juuban Middle School
+[end]
+
+<$B9><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3B9, 15, 2)
+
+// しばこうえんちゅうがく[br]
+// [end]
+Shiba Koen Middle School
+[end]
+
+<$C8><$93>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 25
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD3C8, 29, 2)
+
+// うさぎちゃんとおなじがっこうにかよっているこは？[br]
+// [end]
+Who attends the same school as Usagi?
+[end]
+
+<$E5><$93>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD3EB, 9, 2)
+
+// みずの　あみ[br]
+// [end]
+Ami Mizuno
+[end]
+
+<$F4><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3F4, 9, 2)
+
+// あいの　みなこ[br]
+// [end]
+Minako Aino
+[end]
+
+<$FD><$93>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD3FD, 7, 2)
+
+// ひの　レイ[br]
+// [end]
+Rei Hino
+[end]
+
+<$04><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 26
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD404, 22, 2)
+
+// あみちゃんがしょうらいなりたいものは？[br]
+// [end]
+What does Ami want to be in the future?
+[end]
+
+<$1A><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD420, 8, 2)
+
+// おいしゃさん[br]
+// [end]
+Doctor
+[end]
+
+<$28><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD428, 11, 2)
+
+// そうりだいじん[br]
+// [end]
+Prime Minister
+[end]
+
+<$33><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD433, 10, 2)
+
+// サッカーせんしゅ[br]
+// [end]
+Soccer player
+[end]
+
+<$3D><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 27
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD43D, 38, 2)
+
+// ミュージカルセーラームーンのしゅつえんアイドルはつぎのうちだれ？[br]
+// [end]
+Who are the idols who perform the Sailor Moon musical?
+[end]
+
+<$63><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD469, 11, 2)
+
+// さくらっこくらぶ[br]
+// [end]
+Sakurakko Club
+[end]
+
+<$74><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD474, 9, 2)
+
+// おとめじゅく[br]
+// [end]
+Otome Juku
+[end]
+
+<$7D><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD47D, 11, 2)
+
+// おにゃんこくらぶ[br]
+// [end]
+Onyanko Club
+[end]
+
+<$88><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 28
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD488, 20, 2)
+
+// つきのおうこくのじょうおうさまは？[br]
+// [end]
+Who is the queen of the Moon Kingdom?
+[end]
+
+<$9C><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4A2, 11, 2)
+
+// クイーンセレニティ[br]
+// [end]
+Queen Serenity
+[end]
+
+<$AD><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4AD, 10, 2)
+
+// クイーンビィー[br]
+// [end]
+Queen Bee
+[end]
+
+<$B7><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4B7, 9, 2)
+
+// クイーンアント[br]
+// [end]
+Queen Ant
+[end]
+
+<$C0><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 29
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4C0, 20, 2)
+
+// ちきゅうのおうこくのおうじさまは？[br]
+// [end]
+Who is the prince of the Earth Kingdom?
+[end]
+
+<$D4><$94>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4DA, 10, 2)
+
+// エンディミオン[br]
+// [end]
+Endymion
+[end]
+
+<$E4><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4E4, 9, 2)
+
+// ディアブロ[br]
+// [end]
+Diablo
+[end]
+
+<$ED><$94>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD4ED, 8, 2)
+
+// マセラッティ[br]
+// [end]
+Maserati
+[end]
+
+<$F5><$94>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 30
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD4F5, 37, 2)
+
+// セーラームーンのもっているぎんすいしょうをおさめたペンダントは？[br]
+// [end]
+//What is the pendant with Sailor Moon's silver crystal placed into it?
+What is the pendant that holds Sailor Moon's Silver Crystal?
+[end]
+
+<$1A><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD520, 10, 2)
+
+// クリスタルスター[br]
+// [end]
+Crystal Star
+[end]
+
+<$2A><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD52A, 14, 2)
+
+// ダイアモンドヘッド[br]
+// [end]
+Diamond Head
+[end]
+
+<$38><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD538, 8, 2)
+
+// キャッツアイ[br]
+// [end]
+Cat's-Eye
+[end]
+
+<$40><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 31
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD540, 16, 2)
+
+// うさぎちゃんのせいざは？[br]
+// [end]
+What is Usagi's zodiac sign?
+[end]
+
+<$50><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD556, 6, 2)
+
+// カニざ[br]
+// [end]
+Cancer
+[end]
+
+<$5C><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD55C, 6, 2)
+
+// ししざ[br]
+// [end]
+Leo
+[end]
+
+<$62><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD562, 7, 2)
+
+// おとめざ[br]
+// [end]
+Virgo
+[end]
+
+<$69><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 32
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD569, 15, 2)
+
+// うさぎちゃんのしゅみは？[br]
+// [end]
+What is Usagi's hobby?
+[end]
+
+<$78><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD57E, 6, 2)
+
+// ねること[br]
+// [end]
+Sleeping
+[end]
+
+<$84><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD584, 7, 2)
+
+// スポーツ[br]
+// [end]
+Sports
+[end]
+
+<$8B><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD58B, 8, 2)
+
+// べんきょう[br]
+// [end]
+Studying
+[end]
+
+<$93><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 33
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD593, 20, 2)
+
+// うさぎちゃんのすきなたべものは？[br]
+// [end]
+What is Usagi's favorite food?
+[end]
+
+<$A7><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5AD, 9, 2)
+
+// アイスクリーム[br]
+// [end]
+Ice cream
+[end]
+
+<$B6><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5B6, 7, 2)
+
+// だいふく[br]
+// [end]
+Daifuku
+[end]
+
+<$BD><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5BD, 10, 2)
+
+// やきまんじゅう[br]
+// [end]
+Yaki manju
+[end]
+
+<$C7><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 34
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5C7, 21, 2)
+
+// うさぎちゃんのきらいなたべものは？[br]
+// [end]
+What is Usagi's least favorite food?
+[end]
+
+<$DC><$95>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5E2, 7, 2)
+
+// にんじん[br]
+// [end]
+Carrots
+[end]
+
+<$E9><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5E9, 6, 2)
+
+// やきいも[br]
+// [end]
+Roasted sweet potatoes
+[end]
+
+<$EF><$95>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD5EF, 5, 2)
+
+// トマト[br]
+// [end]
+Tomatoes
+[end]
+
+<$F4><$95>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 35
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD5F4, 16, 2)
+
+// うさぎちゃんのモットーは？[br]
+// [end]
+What is Usagi's motto?
+[end]
+
+<$04><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD60A, 10, 2)
+
+// ねるこはそだつ[br]
+// [end]
+A well-slept child is a well-kept child
+[end]
+
+<$14><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD614, 11, 2)
+
+// いちにちいちぜん[br]
+// [end]
+Do one good deed a day
+[end]
+
+<$1F><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD61F, 13, 2)
+
+// しょぎょうむじょう[br]
+// [end]
+All worldly things are transitory
+[end]
+
+<$2C><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 36
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD62C, 25, 2)
+
+// みなこちゃんといつもいっしょにいるしろねこは？[br]
+// [end]
+Who is the white cat who's always with Minako?
+[end]
+
+<$45><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD64B, 7, 2)
+
+// アルテミス[br]
+// [end]
+Artemis
+[end]
+
+<$52><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD652, 6, 2)
+
+// アラミス[br]
+// [end]
+Aramis
+[end]
+
+<$58><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD658, 7, 2)
+
+// ティラミス[br]
+// [end]
+Tiramisu
+[end]
+
+<$5F><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 37
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD65F, 24, 2)
+
+// うさぎちゃんのよくいくゲームセンターは？[br]
+// [end]
+//What video game arcade does Usagi often visit?
+What arcade does Usagi often visit?
+[end]
+
+<$77><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD67D, 6, 2)
+
+// クラウン[br]
+// [end]
+Crown
+[end]
+
+<$83><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD683, 8, 2)
+
+// アシャンティ[br]
+// [end]
+Ashanti
+[end]
+
+<$8B><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD68B, 9, 2)
+
+// パラダイス[br]
+// [end]
+Paradise
+[end]
+
+<$94><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 38
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD694, 35, 2)
+
+// みなこちゃんがはるかさんとしょうぶしてまけたレースゲームは？[br]
+// [end]
+What racing game did Minako lose a match to Haruka in?
+[end]
+
+<$B7><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6BD, 16, 2)
+
+// グッドドライビング[br]
+// [end]
+// aw, i liked "god driving" better
+Good Driving
+[end]
+
+<$CD><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6CD, 11, 2)
+
+// デイトナ２０００[br]
+// [end]
+Daytona 2000
+[end]
+
+<$D8><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6D8, 10, 2)
+
+// トップランナー[br]
+// [end]
+Top Runner
+[end]
+
+<$E2><$96>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 39
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6E2, 14, 2)
+
+// あみちゃんのせいざは？[br]
+// [end]
+What is Ami's zodiac sign?
+[end]
+
+<$F0><$96>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD6F6, 7, 2)
+
+// おとめざ[br]
+// [end]
+Virgo
+[end]
+
+<$FD><$96>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD6FD, 7, 2)
+
+// やぎざ[br]
+// [end]
+Capricorn
+[end]
+
+<$04><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD704, 7, 2)
+
+// おうしざ[br]
+// [end]
+Taurus
+[end]
+
+<$0B><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 40
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD70B, 14, 2)
+
+// レイちゃんのせいざは？[br]
+// [end]
+What is Rei's zodiac sign?
+[end]
+
+<$19><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD71F, 9, 2)
+
+// おひつじざ[br]
+// [end]
+Aries
+[end]
+
+<$28><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD728, 10, 2)
+
+// みずがめざ[br]
+// [end]
+Aquarius
+[end]
+
+<$32><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD732, 9, 2)
+
+// てんびんざ[br]
+// [end]
+Libra
+[end]
+
+<$3B><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 41
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD73B, 14, 2)
+
+// まこちゃんのせいざは？[br]
+// [end]
+What is Makoto's zodiac sign?
+[end]
+
+<$49><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD74F, 6, 2)
+
+// いてざ[br]
+// [end]
+Sagittarius
+[end]
+
+<$55><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD755, 6, 2)
+
+// うおざ[br]
+// [end]
+Pisces
+[end]
+
+<$5B><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD75B, 8, 2)
+
+// ふたござ[br]
+// [end]
+Gemini
+[end]
+
+<$63><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 42
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD763, 15, 2)
+
+// みなこちゃんのせいざは？[br]
+// [end]
+What is Minako's zodiac sign?
+[end]
+
+<$72><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD778, 9, 2)
+
+// てんびんざ[br]
+// [end]
+Libra
+[end]
+
+<$81><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD781, 7, 2)
+
+// さそりざ[br]
+// [end]
+Scorpio
+[end]
+
+<$88><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD788, 6, 2)
+
+// ししざ[br]
+// [end]
+Leo
+[end]
+
+<$8E><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 43
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD78E, 18, 2)
+
+// くろねこのルナのなまえのいみは？[br]
+// [end]
+What is the meaning of the black cat Luna's name?
+[end]
+
+<$A0><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7A6, 4, 2)
+
+// つき[br]
+// [end]
+Moon
+[end]
+
+<$AA><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7AA, 4, 2)
+
+// ほし[br]
+// [end]
+Star
+[end]
+
+<$AE><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7AE, 6, 2)
+
+// たいよう[br]
+// [end]
+Sun
+[end]
+
+<$B4><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 44
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7B4, 21, 2)
+
+// しろねこのアルテミスのなまえのいみは？[br]
+// [end]
+What is the meaning of the white cat Artemis's name?
+[end]
+
+<$C9><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7CF, 4, 2)
+
+// つき[br]
+// [end]
+Moon
+[end]
+
+<$D3><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7D3, 4, 2)
+
+// ほし[br]
+// [end]
+Star
+[end]
+
+<$D7><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7D7, 6, 2)
+
+// たいよう[br]
+// [end]
+Sun
+[end]
+
+<$DD><$97>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 45
+//=======================================
+
+// the Japanese questions ask you to identify the native Japanese name
+// for each Senshi's English theme planet. this becomes very stupid in
+// translation (Q. what is sailor mercury's theme planet? A. mercury),
+// so i've opted for questions based on the order of the planets instead.
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7DD, 18, 2)
+
+// セーラームーンのしゅごせいは？[br]
+// [end]
+//What is Sailor Moon's guardian celestial body?
+Which Sailor Senshi's guardian celestial body is not a planet?
+[end]
+
+<$EF><$97>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD7F5, 4, 2)
+
+// つき[br]
+// [end]
+//Moon
+Sailor Moon
+[end]
+
+<$F9><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7F9, 4, 2)
+
+// ほし[br]
+// [end]
+//Star
+Sailor Mercury
+[end]
+
+<$FD><$97>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD7FD, 6, 2)
+
+// たいよう[br]
+// [end]
+//Sun
+Sailor Jupiter
+[end]
+
+<$03><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 46
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD803, 21, 2)
+
+// セーラーマーキュリーのしゅごせいは？[br]
+// [end]
+//What is Sailor Mercury's guardian celestial body?
+The first planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$18><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD81E, 6, 2)
+
+// すいせい[br]
+// [end]
+Mercury
+[end]
+
+<$24><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD824, 6, 2)
+
+// もくせい[br]
+// [end]
+Jupiter
+[end]
+
+<$2A><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD82A, 6, 2)
+
+// どせい[br]
+// [end]
+Saturn
+[end]
+
+<$30><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 47
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD830, 19, 2)
+
+// セーラーマーズのしゅごせいは？[br]
+// [end]
+//What is Sailor Mars's guardian celestial body?
+The fourth planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$43><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD849, 5, 2)
+
+// かせい[br]
+// [end]
+Mars
+[end]
+
+<$4E><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD84E, 6, 2)
+
+// きんせい[br]
+// [end]
+Venus
+[end]
+
+<$54><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD854, 6, 2)
+
+// もくせい[br]
+// [end]
+Jupiter
+[end]
+
+<$5A><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 48
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD85A, 22, 2)
+
+// セーラージュピターのしゅごせいは？[br]
+// [end]
+//What is Sailor Jupiter's guardian celestial body?
+The fifth planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$70><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD876, 6, 2)
+
+// もくせい[br]
+// [end]
+Jupiter
+[end]
+
+<$7C><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD87C, 8, 2)
+
+// てんのうせい[br]
+// [end]
+Uranus
+[end]
+
+<$84><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD884, 5, 2)
+
+// かせい[br]
+// [end]
+Mars
+[end]
+
+<$89><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 49
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD889, 20, 2)
+
+// セーラービーナスのしゅごせいは？[br]
+// [end]
+//What is Sailor Venus's guardian celestial body?
+The second planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$9D><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8A3, 6, 2)
+
+// きんせい[br]
+// [end]
+Venus
+[end]
+
+<$A9><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8A9, 6, 2)
+
+// どせい[br]
+// [end]
+Saturn
+[end]
+
+<$AF><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8AF, 6, 2)
+
+// すいせい[br]
+// [end]
+Mercury
+[end]
+
+<$B5><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 50
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8B5, 19, 2)
+
+// セーラーウラヌスのしゅごせいは？[br]
+// [end]
+//What is Sailor Uranus's guardian celestial body?
+The seventh planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$C8><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8CE, 8, 2)
+
+// てんのうせい[br]
+// [end]
+Uranus
+[end]
+
+<$D6><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8D6, 5, 2)
+
+// かせい[br]
+// [end]
+Mars
+[end]
+
+<$DB><$98>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD8DB, 6, 2)
+
+// すいせい[br]
+// [end]
+Mercury
+[end]
+
+<$E1><$98>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 51
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8E1, 22, 2)
+
+// セーラーネプチューンのしゅごせいは？[br]
+// [end]
+//What is Sailor Neptune's guardian celestial body?
+The eighth planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$F7><$98>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD8FD, 6, 2)
+
+// かいおう[br]
+// [end]
+Neptune
+[end]
+
+<$03><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD903, 6, 2)
+
+// てんのう[br]
+// [end]
+Uranus
+[end]
+
+<$09><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD909, 6, 2)
+
+// きんせい[br]
+// [end]
+Venus
+[end]
+
+<$0F><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 52
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD90F, 20, 2)
+
+// セーラープルートのしゅごせいは？[br]
+// [end]
+//What is Sailor Neptune's guardian celestial body?
+The ninth planet from the sun is Sailor _____'s guardian body.
+[end]
+
+<$23><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD929, 8, 2)
+
+// めいおうせい[br]
+// [end]
+Pluto
+[end]
+
+<$31><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD931, 5, 2)
+
+// かせい[br]
+// [end]
+Mars
+[end]
+
+<$36><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD936, 8, 2)
+
+// てんのうせい[br]
+// [end]
+Uranus
+[end]
+
+<$3E><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 53
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD93E, 15, 2)
+
+// つきのおうこくのなまえは？[br]
+// [end]
+What is the Moon Kingdom's name?
+[end]
+
+<$4D><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD953, 12, 2)
+
+// シルバーミレニアム[br]
+// [end]
+Silver Millennium
+[end]
+
+<$5F><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD95F, 15, 2)
+
+// ゴールドキングダム[br]
+// [end]
+Gold Kingdom
+[end]
+
+<$6E><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD96E, 9, 2)
+
+// パールライヒ[br]
+// [end]
+Pearl Reich
+[end]
+
+<$77><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 54
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD977, 34, 2)
+
+// ダークキングダムのディーディーガールズはなんにん？[br]
+// [end]
+How many of the Dark Kingdom's DD Girls are there?
+[end]
+
+<$99><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD99F, 5, 2)
+
+// ５にん[br]
+// [end]
+Five
+[end]
+
+<$A4><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9A4, 5, 2)
+
+// ７にん[br]
+// [end]
+Seven
+[end]
+
+<$A9><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9A9, 5, 2)
+
+// ３にん[br]
+// [end]
+Three
+[end]
+
+<$AE><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 55
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9AE, 14, 2)
+
+// ルナのひげのかずは？[br]
+// [end]
+How many whiskers does Luna have?
+[end]
+
+<$BC><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9C2, 6, 2)
+
+// ６ぽん[br]
+// [end]
+Six
+[end]
+
+<$C8><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9C8, 5, 2)
+
+// ２ほん[br]
+// [end]
+Two
+[end]
+
+<$CD><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9CD, 5, 2)
+
+// ４ほん[br]
+// [end]
+Four
+[end]
+
+<$D2><$99>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 56
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9D2, 15, 2)
+
+// つきのおうこくのおしろは？[br]
+// [end]
+What is the Moon Kingdom's castle called?
+[end]
+
+<$E1><$99>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xD9E7, 11, 2)
+
+// クリスタルパレス[br]
+// [end]
+Crystal Palace
+[end]
+
+<$F2><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9F2, 11, 2)
+
+// ガイエスブルク[br]
+// [end]
+Gaiusburg
+[end]
+
+<$FD><$99>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xD9FD, 11, 2)
+
+// ホワイトキャッスル[br]
+// [end]
+White Castle
+[end]
+
+<$08><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 57
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA08, 27, 2)
+
+// セーラービーナスがしゅじんこうのゲームは？[br]
+// [end]
+What game features Sailor Venus as the protagonist?
+[end]
+
+<$23><$9A>
+
+#ENDMSG()
+
+#SETSIZE(88, 2)
+#SETBREAKMODE(SINGLE)
+// substring 0
+#STARTMSG(0xDA29, 9, 2)
+
+// セーラーブイ[br]
+// [end]
+Sailor V
+[end]
+
+<$32><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA32, 15, 2)
+
+// ビーナスデッドヒート[br]
+// [end]
+Venus Dead Heat
+[end]
+
+<$41><$9A>
+
+#ENDMSG()
+
+// substring 0
+#STARTMSG(0xDA41, 10, 2)
+
+// ビーナスウォー[br]
+// [end]
+Venus War
+[end]
+
+<$4B><$9A>
+
+#ENDMSG()
+
+//=======================================
+// quiz world standard question 58
+//=======================================
+
+// (was a repeat of 56)
+
+//=======================================
+// quiz world standard question 59
+//=======================================
+
+// (was a repeat of 57)
+
+//=======================================
+// quiz world picture questions
+//=======================================
+
+#SETSIZE(112, 7)
+#SETBREAKMODE(SINGLE)
+
+// substring 0
+#STARTMSG(0xDA4B, 25, 2)
+
+// セーラーウラヌスのはいているくつはどれかしら？[end]
+Which are the shoes Sailor Uranus wears?
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xDA64, 19, 2)
+
+// セーラーちびムーンをさがしてね。[end]
+Find Sailor Chibi Moon!
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xDA77, 38, 2)
+
+// わたくし、セーラーネプチューンになるのにつかうスティックはどれかしら？[end]
+Which stick does it take to become me, Sailor Neptune?
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0xDA9D, 27, 2)
+
+// スーパーセーラームーンになるのにひつようなものは？[end]
+What item is needed to become Super Sailor Moon?
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0xDAB8, 27, 2)
+
+// ぶきみな（ともえきょうじゅ）はどのひとかしら？[end]
+Now, which of these could be the creepy Professor Tomoe?
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0xDAD3, 23, 2)
+
+// あたし、セーラーちびムーンはどーれだ？[end]
+Which one is me, Sailor Chibi Moon?
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0xDAEA, 36, 2)
+
+// ちびうさちゃんのパパ（キングエンディミオン）をさがしてね。[end]
+Find Chibiusa's father (King Endymion)!
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0xDB0E, 21, 2)
+
+// スーパーセーラームーンはどぉれだ？[end]
+Which one is Super Sailor Moon?
+[end]
+
+
+#ENDMSG()
+
+//=======================================
+// endings
+//=======================================
+
+#SETSIZE(128, -1)
+#SETBREAKMODE(DOUBLE)
+
+// substring 0
+#STARTMSG(0xDB63, 58, 2)
+
+// ふふふ・・・　すばらしい。[br]
+// せいはいさえ　てにいれれば・・[br]
+// かならずてにいれてやる。[br]
+// ハハハハハハ・・・・[br]
+// [end]
+
+// there's some sort of bug with this that causes breaks to get offset
+// if the content starts on the first line, no idea if it's my fault
+// or the game's
+#SETBREAKMODE(SINGLE)
+[br]
+#SETBREAKMODE(DOUBLE)
+Tee-hee-hee... Wonderful.[br]
+Whether I obtain it or not...[br]
+I'll make it mine for sure.[br]
+Ha-ha-ha-ha...
+[end]
+
+
+#ENDMSG()
+
+#SETSIZE(64, -1)
+#SETBREAKMODE(DOUBLE)
+
+// substring 1
+#STARTMSG(0xDB9D, 74, 2)
+
+// さいごまで[br]
+// がんばったわね！おめでとう　セーラーちびムーン[br]
+// こんどは　わたしセーラームーンがデス・バスターズをおしおきよ！[br]
+// [end]
+#SETBREAKMODE(SINGLE)
+[br]
+#SETBREAKMODE(DOUBLE)
+You gave it your all to the very end![br]
+Congratula-[br]
+tions, Sailor Chibi Moon![br]
+Now I, Sailor Moon, will punish the Death Busters!
+[end]
+
+
+#ENDMSG()
+
+//=======================================
+// minigame menu
+//=======================================
+
+//#SETSIZE(64, 6)
+#SETSIZE(64, 3)
+#SETBREAKMODE(DOUBLE)
+
+// substring 0
+#STARTMSG(0xDBE7, 26, 2)
+
+// [clear]
+// ルナＰボール[br]
+// 　のピクニック[br]
+// （ちびうさ）[end]
+[clear]
+Luna-P Ball's Picnic (Chibiusa)
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0xDC01, 25, 2)
+
+// [clear]
+// ルナＰボール[br]
+// 　のピクニック[br]
+// （うさぎ）[end]
+[clear]
+Luna-P Ball's Picnic (Usagi)
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0xDC1A, 25, 2)
+
+// [clear]
+// タキシード[br]
+// かめんをさがせ[br]
+// （ちびうさ）[end]
+[clear]
+Find Tuxedo Mask (Chibiusa)
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0xDC33, 24, 2)
+
+// [clear]
+// タキシード[br]
+// かめんをさがせ[br]
+// （うさぎ）[end]
+[clear]
+Find Tuxedo Mask (Usagi)
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0xDC4B, 25, 2)
+
+// [clear]
+// セーラーチーム[br]
+// 　のルーレット[br]
+// （ちびうさ）[end]
+[clear]
+Sailor Team Roulette (Chibiusa)
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0xDC64, 24, 2)
+
+// [clear]
+// セーラーチーム[br]
+// 　のルーレット[br]
+// （うさぎ）[end]
+[clear]
+Sailor Team Roulette (Usagi)
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0xDC7C, 19, 2)
+
+// [clear]
+// クイズワールド[br]
+// （ちびうさ）[end]
+[clear]
+Quiz World (Chibiusa)
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0xDC8F, 18, 2)
+
+// [clear]
+// クイズワールド[br]
+// （うさぎ）[end]
+[clear]
+Quiz World (Usagi)
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0xDCA1, 11, 2)
+
+// [clear]
+// タイトルにもどる[end]
+[clear]
+Return to Title Screen
+[end]
+
+
+#ENDMSG()
+
+//=======================================
+// find tuxedo mask
+//=======================================
+
+#SETSIZE(96, 2)
+#SETBREAKMODE(DOUBLE)
+
+// substring 0
+#STARTMSG(0x23E49, 6, 2)
+
+// あたり！！[end]
+// note: not used. this is internally assigned to the door tuxedo hides
+// behind, but when that door is selected, the game runs special logic
+// to display the used message and animation of tuxedo escaping.
+// ~ exhaustive research by supper, 2015 ~
+You got it!
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0x23E4F, 7, 2)
+
+// おしえなーい[end]
+I'm not telliiing!
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0x23E56, 10, 2)
+
+// うえのほうにいるよ[end]
+He's above this floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x23E60, 10, 2)
+
+// したのほうにいるよ[end]
+He's below this floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x23E6A, 11, 2)
+
+// みぎのほうにいるよ[end]
+He's to the right.
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x23E75, 12, 2)
+
+// ひだりのほうにいるよ[end]
+He's to the left.
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x23E81, 11, 2)
+
+// このかいにはいないよ[end]
+He's not on this floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x23E8C, 9, 2)
+
+// このかいにいるよ[end]
+He's on this floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x23E95, 8, 2)
+
+// １かいにいるよ[end]
+He's on the first floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x23E9D, 8, 2)
+
+// ２かいにいるよ[end]
+He's on the second floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x23EA5, 8, 2)
+
+// ３かいにいるよ[end]
+// note: neither this nor the corresponding messages for the fourth
+// or fifth floor are assigned to any door in any game configuration,
+// so they're unused.
+He's on the third floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x23EAD, 8, 2)
+
+// ４かいにいるよ[end]
+He's on the fourth floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x23EB5, 8, 2)
+
+// ５かいにいるよ[end]
+He's on the fifth floor.
+[end]
+
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x23EBD, 17, 2)
+
+// ははは　またあおう[br]
+// さらばだ[end]
+Ha-ha-ha! Let us meet again! Farewell!
+[end]
+
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x23ECE, 17, 2)
+
+// ざんねん[br]
+// みつけられなかったね[end]
+Sorry! You couldn't find him.
+[end]
+
+
+#ENDMSG()
+
+//=======================================
+// minigame intro strings
+//=======================================
+
+//#SETSIZE(80, 5)
+//#SETBREAKMODE(SINGLE)
+#SETSIZE(80, 3)
+#SETBREAKMODE(DOUBLE)
+
+// substring 0
+#STARTMSG(0x3C028, 102, 2)
+
+// speaker: makoto
+
+// ルナとアルテミスに[br]
+// ぶつからないように[br]
+// ルナピーボールを[br]
+// ゴールまでつれて[br]
+// いってね。[br]
+// [wait]
+Try to guide Luna-P Ball to the goal without colliding with Luna or Artemis.
+[wait][br]
+
+// ２ボタンでみぎに、[br]
+// １ボタンでひだりに[br]
+// うごくわよ。[br]
+// [wait]
+You can move right with Button 2, and left with Button 1.
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+[clear]
+Press the Start button!
+[end]
+
+
+#ENDMSG()
+
+// substring 1
+#STARTMSG(0x3C08E, 104, 2)
+
+// speaker: haruka
+
+// ルナとアルテミスに[br]
+// ぶつからないように[br]
+// ルナピーボールを[br]
+// ゴールまで、つれて[br]
+// いってくれ。[br]
+// [wait]
+Guide Luna-P Ball to the goal without colliding with Luna or Artemis.
+[wait][br]
+
+// ２ボタンでみぎに、[br]
+// １ボタンでひだりに[br]
+// うごくよ。[br]
+// [wait]
+Move right with Button 2, and left with Button 1.
+[wait]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくれ。[end]
+[clear]
+Press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 2
+#STARTMSG(0x3C0F6, 135, 2)
+
+// speaker: usagi
+
+// マンションにかくれ[br]
+// たタキシードかめん[br]
+// をさがすのよ。[br]
+// [wait]
+Find Tuxedo Mask, who's hidden somewhere in the condo!
+[wait][br]
+
+// ドアのまえでボタン[br]
+// をおせば、あけるこ[br]
+// とができるよ。[br]
+// [wait]
+You can open doors by pressing the button while in front of them.
+[wait][br]
+
+// そのとき、セーラー[br]
+// せんしが、ヒントを[br]
+// おしえてくれるよ。[br]
+// [wait]
+Then, a Sailor Senshi will give you a hint!
+[wait][br]
+
+// ５かいまでにさがし[br]
+// だしてね。[br]
+// [wait]
+//Search up to 5 times.
+You can search up to five times.
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+Press the Start button!
+[end]
+
+
+#ENDMSG()
+
+// substring 3
+#STARTMSG(0x3C17D, 116, 2)
+
+// speaker: tuxedo mask
+
+// わたしをみつけて[br]
+// みたまえ。[br]
+// [wait]
+Please try to find me.
+[wait][br]
+
+// ドアのまえでボタン[br]
+// をおせば、あけるこ[br]
+// とができる。[br]
+// [wait]
+You can open doors by pressing the button while in front of them.
+[wait][br]
+
+// そのとき、セーラー[br]
+// せんしが、ヒントを[br]
+// おしえてくれる[br]
+// だろう。[br]
+// [wait]
+Then, a Sailor Senshi should give you a hint.
+[wait][br]
+
+// チャンスは４かいだ。[wait]
+You have four chances.
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくれ。[end]
+Please press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 4
+#STARTMSG(0x3C1F1, 86, 2)
+
+// speaker: minako
+
+// ルーレットをとめて[br]
+// なんにんのセーラー[br]
+// せんしを、あてられ[br]
+// るかな？[br]
+// [wait]
+How many Sailor Senshi can you match by stopping the roulette wheel?
+[wait][br]
+
+// あたったら、つぎの[br]
+// セーラーせんしが[br]
+// ひょうじされるよ。[br]
+// [wait]
+If you make a match, another Sailor Senshi will be displayed!
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+Press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 5
+#STARTMSG(0x3C247, 92, 2)
+
+// speaker: michiru
+
+// ルーレットをとめて[br]
+// なんにんのセーラー[br]
+// せんしを、あてられ[br]
+// るかしら？[br]
+// [wait]
+How many Sailor Senshi can you match by stopping the roulette wheel?
+[wait][br]
+
+// あたれば、つぎの[br]
+// セーラーせんしが[br]
+// ひょうじされますわ。[wait]
+Make a match, and another Sailor Senshi will be displayed.
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてくださいね。[end]
+Please press the Start button!
+[end]
+
+
+#ENDMSG()
+
+// substring 6
+#STARTMSG(0x3C2A3, 39, 2)
+
+// speaker: ami
+
+// これから３たくの[br]
+// クイズをだします。[br]
+// [wait]
+//After this will be three quiz questions.
+// yes, the original text says three, but there are actually five
+A five-question quiz follows.
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+Press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 7
+#STARTMSG(0x3C2CA, 43, 2)
+
+// speaker: setsuna
+
+// これから３たくの[br]
+// クイズをだします。[br]
+// [wait]
+//After this will be three quiz questions.
+A five-question quiz follows.
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてください。[end]
+Please press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 8
+#STARTMSG(0x3C2F5, 39, 2)
+
+// speaker: rei
+
+// あなたのうんせいを[br]
+// うらなってあげる。[br]
+// [wait]
+I'm going to tell your fortune!
+[wait][clear]
+
+// [clear]
+// スタートボタンを[br]
+// おしてね。[end]
+Press the Start button.
+[end]
+
+
+#ENDMSG()
+
+// substring 9
+#STARTMSG(0x3C31C, 31, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+Here's the Bonus Game!
+[wait][br]
+
+// さあ、ライフを[br]
+// かいふくして。[br]
+// [wait]
+//Get your life restored.
+// the phrasing on these is pretty bizarre, but in fact the health restoration
+// is conditional on winning the minigame
+It's a chance to get your life restored.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 10
+#STARTMSG(0x3C33B, 36, 2)
+
+// さあ、[br]
+// ボーナスゲームだ！[br]
+// [wait]
+Well, here's the Bonus Game!
+[wait][br]
+
+// ライフがかいふく[br]
+// するぞ。[br]
+// [wait]
+Your life will be restored if you win.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 11
+#STARTMSG(0x3C35F, 31, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+Here's the Bonus Game!
+[wait][br]
+
+// ライフがかいふく[br]
+// するわよ。[br]
+// [wait]
+Winning it will restore your life.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 12
+#STARTMSG(0x3C37E, 36, 2)
+
+// さあ、[br]
+// ボーナスゲームだ！[br]
+// [wait]
+Well, here's the Bonus Game!
+[wait][br]
+
+// ライフがかいふく[br]
+// するぞ。[br]
+// [wait]
+Your life will be restored if you win.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 13
+#STARTMSG(0x3C3A2, 42, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+Here's the Bonus Game!
+[wait][br]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいるわ。[br]
+// [wait]
+You'll get Rods for your successes.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 14
+#STARTMSG(0x3C3CC, 44, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+Here's the Bonus Game!
+[wait][br]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいりますわ。[br]
+// [wait]
+You'll receive Rods for your successes.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 15
+#STARTMSG(0x3C3F8, 42, 2)
+
+// ボーナスゲームよ！[br]
+// [wait]
+Here's the Bonus Game!
+[wait][br]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいるわ。[br]
+// [wait]
+You'll get Rods for your successes.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+// substring 16
+#STARTMSG(0x3C422, 44, 2)
+
+// ボーナスゲームです。[wait]
+This is the Bonus Game.
+[wait][br]
+
+// あたったかずだけ、[br]
+// ロッドがてに[br]
+// はいります。[br]
+// [wait]
+You will receive Rods for your successes.
+[wait][br]
+
+// [end]
+
+[end]
+
+
+#ENDMSG()
+
+#SETSIZE(-1, -1)
+

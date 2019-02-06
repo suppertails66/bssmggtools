@@ -1,0 +1,5 @@
+Sailor Moon S (Game Gear) Notes
+
+Script
+0xCE0D-0xDCAB
+0x3C028-0x3C44D

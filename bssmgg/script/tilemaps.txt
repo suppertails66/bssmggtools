@@ -1,0 +1,299 @@
+//=======================================
+// sailor team roulette 1
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73A1, 8, 2)
+
+// あたり！
+// 
+Bingo!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// sailor team roulette 2
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73AB, 16, 2)
+
+// 　゛　　
+// はすれ！
+// 
+Nope!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// sailor team roulette 3
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73BD, 32, 2)
+
+// 　　　　　゜　　
+// タイムアッフ！！
+// 
+Time's up!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// sailor team roulette 4
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73DF, 18, 2)
+
+// ＰＥＲＦＥＣＴ！！
+// 
+Perfect!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// sailor team roulette 5
+//=======================================
+
+// tilemap 0
+#STARTMSG(0x73F3, 16, 2)
+
+// オオオオ
+// ヌヌヌヌ
+// 
+// (blank, used to clear box)
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// main menu
+//=======================================
+
+// カーソルで　えらんでね
+[br]
+Choose with[br]
+     the cursor!
+[end]
+
+#ENDMSG()
+#BREAK()
+
+//=======================================
+// sound test
+//=======================================
+
+// tilemap 0
+//#STARTMSG(0x7C9E6, 720, 2)
+
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　゛　　　　　　　　　　
+// 　　　　　　サウント　テスト　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　[star][star][star][star][star][star][star][star][star][star][star][star][star][star]　　　
+// 　　　[star]　　　　　　゛　　　　　[star]　　　
+// 　　　[star]　[rightarrow]　サウント　　００　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star]　　　こうかおん　００　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star]　　　おんせい　　００　[star]　　　
+// 　　　[star]　　　　゛　　　　　　　[star]　　　
+// 　　　[star]　　　もとる　　　　　　[star]　　　
+// 　　　[star]　　　　　　　　　　　　[star]　　　
+// 　　　[star][star][star][star][star][star][star][star][star][star][star][star][star][star]　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 　　　　　　　　　　　　　　　　　　　　
+// 
+
+
+//#ENDMSG()
+
+//=======================================
+// main menu @ 0x10042
+//=======================================
+
+//=======================================
+// credits
+//=======================================
+
+// セーラームーンのこえ
+// 　　みついし　ことの
+[br]
+[br]
+Voice of Sailor Moon[br]
+[br]
+[tilebr]Kotono Mitsuishi
+[end]
+#ENDMSG()
+
+// げんさく
+[br]
+[br]
+[br]
+[tilebr] [space2px]Original Work
+[end]
+#ENDMSG()
+
+// たけうち　なおこ
+[br]
+[br]
+[br]
+[tilebr][space2px]Naoko Takeuchi
+[end]
+#ENDMSG()
+
+// スタッフ
+[br]
+[br]
+[br]
+[tilebr][tilebr][tilebr]  Staff
+[end]
+#ENDMSG()
+
+// プロデューサー
+// いながき　ひろふみ
+[br]
+[br]
+Producer[br]
+[br]
+[tilebr]Hirofumi Inagaki
+[end]
+#ENDMSG()
+
+// チーフディレクター
+// しまだ　じゅんぞう
+[br]
+[br]
+Chief Director[br]
+[br]
+[tilebr]Junzou Shimada
+[end]
+#ENDMSG()
+
+// ディレクター
+// ちくだ　ゆうこ
+[br]
+[br]
+Director[br]
+[br]
+[tilebr]Yuuko Chikuda
+[end]
+#ENDMSG()
+
+// プログラマー
+// いけだ　ともなり
+// おおやま　てつお
+[br]
+Programmers[br]
+[br]
+[tilebr]Tomonari Ikeda[br]
+[tilebr]Tetsuo Ooyama
+[end]
+#ENDMSG()
+
+// デザイナー
+// しまだ　じゅんぞう
+// いけだ　ようすけ
+// ちくだ　ゆうこ
+[br]
+Designers[br]
+[br]
+[tilebr]Junzou Shimada[br]
+[tilebr]Yousuke Ikeda[br]
+[tilebr]Yuuko Chikuda
+[end]
+#ENDMSG()
+
+// アドバイザー
+// うつのみや　まさと
+// ゆの　じょうじ
+[br]
+Advisors[br]
+[br]
+[tilebr]Masato Utsunomiya[br]
+[tilebr]Jouji Yuno
+[end]
+#ENDMSG()
+
+// スペシャル　サンクス
+[br]
+[br]
+[br]
+[tilebr][space2px]Special Thanks
+[end]
+#ENDMSG()
+
+// なかよし　へんしゅうぶ
+// おさの　ふみお
+[br]
+[space2px]Nakayoshi Editorial[br]
+[tilebr][tilebr] Department[br]
+[br]
+[tilebr]  [space3px]Fumio Osano
+[end]
+#ENDMSG()
+
+// とうえいどうが
+// あずま　いりや
+// きど　むつみ
+[br]
+[tilebr] Toei Animation[br]
+[br]
+[tilebr][tilebr]Iriya Azuma[br]
+[tilebr][tilebr]Mutsumi Kido
+[end]
+#ENDMSG()
+
+[br]
+[br]
+[br]
+ English Conversion
+[end]
+#ENDMSG()
+
+[br]
+[br]
+Translation[br]
+[br]
+[tilebr]Filler
+[end]
+#ENDMSG()
+
+[br]
+[br]
+Hacking[br]
+[br]
+[tilebr]Supper
+[end]
+#ENDMSG()
+
+[br]
+[br]
+Testing[br]
+[br]
+[tilebr]cccmar
+[end]
+#ENDMSG()
+
+This is a free, fan-[br]
+made translation.[br]
+Please don't use it[br]
+for commercial pur-[br]
+poses, such as repro[br]
+carts.
+[end]
+#ENDMSG()
+
+#BREAK()
+

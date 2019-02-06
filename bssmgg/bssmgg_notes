@@ -1,0 +1,131 @@
+
+routines:
+  151: wait for frame?
+       updates timers too?
+  5F6: sendPendingTilemaps (from D000 queue)
+  63E: decmpGraphic
+       HL = src
+       DE = vdp dst (doesn't have to be 4000-7FFF)
+  6A4: load tilemap with embedded size
+  8C4: poll input?
+  95C: sprite update??
+  
+  4670: credits runner object update routine
+  
+  4F77: init printing
+        HL = pointer to print specs
+  4FAF: "raw", instantaneous printing
+  4FBA: update printing
+        handles delay timing, etc.
+  500F: printChar
+        (NOTE: called before each question in quiz world at 750C
+         with hardcoded FD == box clear, fix this)
+  5166: queueCharPrint
+        queues nametable write to D000
+  5190: convert screen-local YX to nametable write command
+        (always assume zero)
+  51BD: queue tilemaps to D000
+        used for things like restoring hidden areas
+  5216: queue tile to tilemap
+  5245: playVoice
+        A = id
+  52DC: ?
+  
+  ~66BD: copy minigame intro strings to memory?
+
+memory:
+  C03D: count of pending tilemap tiles in D000 transfer queue
+  C03E: queue putpos for tilemap transfers? see 612
+  
+  printing:
+    C077: screen-local base printing x-position
+          (0 = top/left corner of GG screen)
+    C078: screen-local base printing y-position
+    C079: width in tiles of printing area?
+    C07A: height in tiles of printing area?
+    C07B-C07C: base nametable tile reference for printed text
+    C07D-C07E: pointer to current printing position
+    C07F: text speed (frames per character)
+    C080: x-offset from base printing X?
+    C081: y-offset from base printing Y?
+    C082: countdown timer for delay between printing characters
+    C083: index of character being printed
+    C084: ? nonzero if printing disabled, e.g. while waiting for player input?
+    C085: ? nonzero if waiting for player input
+    C086: countup timer for state of "more text" indicator used while waiting
+          for player input?
+  
+  C221: nonzero if playing main game?
+        used e.g. to decide whether to prepend "it's the bonus game" message
+        to strings
+  C228: current stage?
+  C229: current stage?
+  C22A: ID of current minigame
+  C22E: set nonzero to immediately go to next stage/password screen/bonus game
+  C22F: countdown timer for next stage: set nonzero, and when it runs out,
+        next stage starts
+  C231: in main game, 00 if usagi and 01 if chibi-usa
+  D000: tilemap data transfer queue
+        $C03D == number of pending entries
+        format:
+          2b vdpcmd
+          2b data
+  D300: palettes
+  D340: palettes (with modifiers)
+  D912: array of 8 1b ??? see 10C9
+  
+data:
+  CA95 = table of credits page pointers?
+         see D6E
+
+text:
+  ~73AE = full-width tilemaps for roulette strings (right/wrong/time up)
+  ~CE00 = quiz world strings
+  ~DB40 = ending?
+  ~DBC0 = minigame menu
+  ~101C6 = full-width tilemap for main menu
+  ~10267 = full-width tilemap for "select with the cursor" on main menu
+  ~23e40 = find tuxedo mask strings
+  ~3C000 = minigame intro strings
+  ~7CA42 = full-width tilemap for sound test
+  
+todo:
+  - title
+  - main menu
+  - transformation cutscenes
+    * power-ups too
+  - main game endings (both characters)
+  - score/password screen after level (also used for minigames)
+  - minigame menu stuff:
+    * minigame selection menu
+    * graphic text labels for each game
+      * are different label graphics used for each of the two possible
+        presenters?
+        - yes, see "find tuxedo mask" covering up his top hat in the usagi
+          version
+    * intro text for each game (variations for both characters)
+    * extra "this is a bonus game" text added to intro when encountered from
+      main game
+  - actual minigames:
+    * luna-p ball's picnic
+      * "goal" text
+    * find tuxedo mask
+      * clue text (special sauce encoding) (remember that crazy patched-in っ that isn't even used???)
+      * can't remember if the two game variations have different clues...
+    * sailor team roulette
+      * wrong
+      * right
+      * out of time
+    * quiz world
+      * questions and answers
+      * "correct" graphic
+  - fortune teller
+    * header graphic
+    * in-game headers
+    * in-game text (special encoding)
+    * also the date kanji
+    * also, colored text. how much do you care?
+  - password entry screen
+  - sound test
+  - credits
+
