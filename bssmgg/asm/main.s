@@ -18,6 +18,8 @@
 
 ; free unused space
 .unbackground $7F00 $7FEF
+  
+  .unbackground $2D4F $2D8D
 
 .define oldPrintBaseX $C077
 .define oldPrintBaseY $C078
@@ -32,6 +34,7 @@
 
 .define waitIndicatorFgTile $090F
 
+.define waitVblank $1B6
 .define loadSizedTilemap $06A4
 .define playVoice $5245
 
@@ -52,17 +55,21 @@
   ; set vdp dst
   ld c,vdpCtrlPort
   out (c),l
+  nop
   out (c),h
+  nop
   ; write data to data port
   ex de,hl
   dec c
   ld a,b
   -:
     .rept bytesPerTile
+      push ix
+      pop ix
       outi
     .endr
     dec a
-    jr nz,-
+    jp nz,-
 .endm
 
 ; BC = tile count
@@ -73,7 +80,9 @@
     ; set vdp dst
     ld c,vdpCtrlPort
     out (c),l
+    nop
     out (c),h
+    nop
   pop bc
   ; write data to data port
   ex de,hl
@@ -81,6 +90,8 @@
     push bc
       ld c,vdpDataPort
       .rept bytesPerTile
+        push ix
+        pop ix
         outi
       .endr
     pop bc
@@ -88,7 +99,7 @@
     dec bc
     ld a,b
     or c
-    jr nz,-
+    jp nz,-
 .endm
 
 ;===============================================
@@ -98,10 +109,6 @@
 
 ;========================================
 ; use vwf and new strings where needed
-;========================================
-
-;========================================
-; main strategy mode
 ;========================================
   
 ; base tile at which vwf tiles are initially allocated
@@ -761,7 +768,7 @@
       ; update tilemap
       ld hl,minigameLabelTilemap
       ld de,$010C
-      jp loadSizedTilemap
+      jp loadSizedTilemap_safe
   .ends
 
   ;=====
@@ -1256,6 +1263,10 @@
 
   .slot 2
   .section "vwf setup roulette 2" superfree
+    rouletteTextGrp:
+      .incbin "out/grp/roulette_text.bin" FSIZE rouletteTextGrp_size
+    .define numRouletteTextGrpTiles rouletteTextGrp_size/bytesPerTile
+      
     setUpVwf_roulette:
       ld a,vwfTileSize_main
       ld b,vwfScrollZeroFlag_main
@@ -1266,6 +1277,13 @@
       ; print area setup
       readyRoulettePrintParams
       doBankedCall initVwfString
+      
+      ; load text graphics
+      ld b,numRouletteTextGrpTiles
+      ld de,rouletteTextGrp
+      ; target tile $110
+      ld hl,$6200
+      rawTilesToVdp_macro
       
       ; make up work
       ld a,$01
@@ -1297,37 +1315,153 @@
     roulette_wrong: .incbin "out/script/roulette_wrong.bin"
     roulette_timeup: .incbin "out/script/roulette_timeup.bin"
     
+    roulette_perfect_tilemap: .incbin "out/maps/roulette_perfect.bin" FSIZE roulette_perfect_tilemap_size
+    .define roulette_perfect_tilemap_width roulette_perfect_tilemap_size/2
+    
+    roulette_right_tilemap: .incbin "out/maps/roulette_right.bin" FSIZE roulette_right_tilemap_size
+    .define roulette_right_tilemap_width roulette_right_tilemap_size/2
+    
+    roulette_wrong_tilemap: .incbin "out/maps/roulette_wrong.bin" FSIZE roulette_wrong_tilemap_size
+    .define roulette_wrong_tilemap_width roulette_wrong_tilemap_size/2
+    
+    roulette_timeup_tilemap: .incbin "out/maps/roulette_timeup.bin" FSIZE roulette_timeup_tilemap_size
+    .define roulette_timeup_tilemap_width roulette_timeup_tilemap_size/2
+    
     roulette_blankBox:
       ld a,vwfBoxClearIndex
       doBankedCall newCharPrint
       ret
+      
+    roulette_waitBlank:
+/*      ld de,$0203
+      -:
+        ld hl,($C040)
+        or a
+        sbc hl,de
+        jr nz,-
+        
+      ld de,$022E
+      -:
+        ld hl,($C040)
+        or a
+        sbc hl,de
+        jr nz,- */
+;      ret
+      jp waitVblank
+    
+    ;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    roulette_writeLocalTilemapToNametable:
+      push hl
+      push bc
+        
+        @yLoop:
+          
+          ; save W
+          push hl
+          push bc
+            
+            @xLoop:
+              ; write next tile
+              push bc
+              push hl
+                ld a,(de)
+                ld c,a
+                inc de
+                
+                ld a,(de)
+                inc de
+                
+                push de
+                  ld d,a
+                  ld a,c
+                  ld e,a
+                  ; MORE CYCLES WASTED THAN HUMANLY IMAGINABLE
+                  doBankedCall writeLocalTileToNametable
+                pop de
+              pop hl
+              pop bc
+              
+              ; move to next X
+              inc h
+              dec b
+              jr nz,@xLoop
+              
+            @xLoopDone:
+          
+          ; restore W
+          pop bc
+          pop hl
+          
+          ; move to next Y
+          inc l
+          dec c
+          jr nz,@yLoop
+      
+      @done:
+      pop bc
+      pop hl
+      ret
     
     roulette_showMsg_right:
-      readyRoulettePrintParams
+      ; wait for vblank -- otherwise, printing may drag on long enough that
+      ; we miss the h-interrupt, causing the roulette to flicker
+      call roulette_waitBlank
+      
+/*      readyRoulettePrintParams
       ld a,:roulette_right
       ld hl,roulette_right
-      doBankedCall startVwfString
+      doBankedCall startVwfString */
+      
+      ld bc,(roulette_right_tilemap_width<<8)|1
+      ld de,roulette_right_tilemap
+      ld hl,$0403
+      call roulette_writeLocalTilemapToNametable
+      
       ret
     
     roulette_showMsg_wrong:
-      readyRoulettePrintParams
-      ld a,:roulette_wrong
-      ld hl,roulette_wrong
-      doBankedCall startVwfString
+      call roulette_waitBlank
+      
+;      readyRoulettePrintParams
+;      ld a,:roulette_wrong
+;      ld hl,roulette_wrong
+;      doBankedCall startVwfString
+      
+      ld bc,(roulette_wrong_tilemap_width<<8)|1
+      ld de,roulette_wrong_tilemap
+      ld hl,$0403
+      call roulette_writeLocalTilemapToNametable
+      
       ret
     
     roulette_showMsg_perfect:
-      readyRoulettePrintParams
-      ld a,:roulette_perfect
-      ld hl,roulette_perfect
-      doBankedCall startVwfString
+      call roulette_waitBlank
+      
+;      readyRoulettePrintParams
+;      ld a,:roulette_perfect
+;      ld hl,roulette_perfect
+;      doBankedCall startVwfString
+      
+      ld bc,(roulette_perfect_tilemap_width<<8)|1
+      ld de,roulette_perfect_tilemap
+      ld hl,$0403
+      call roulette_writeLocalTilemapToNametable
+      
       ret
     
     roulette_showMsg_timeup:
-      readyRoulettePrintParams
-      ld a,:roulette_timeup
-      ld hl,roulette_timeup
-      doBankedCall startVwfString
+      call roulette_waitBlank
+      
+;      readyRoulettePrintParams
+;      ld a,:roulette_timeup
+;      ld hl,roulette_timeup
+;      doBankedCall startVwfString
+      
+      ld bc,(roulette_timeup_tilemap_width<<8)|1
+      ld de,roulette_timeup_tilemap
+      ld hl,$0403
+      call roulette_writeLocalTilemapToNametable
+      
       ret
   .ends
 
@@ -1414,7 +1548,7 @@
       ; load new tilemap
       ld hl,mainMenuOptionsTilemap
       ld de,$0158 ; nametable dst = 3958 = (12,5)
-      call loadSizedTilemap
+      call loadSizedTilemap_safe
       
       ; print help string
       ld bc,$0904
@@ -2286,7 +2420,7 @@
         ld (mapperSlot2Ctrl),a
         
         ld de,$0000
-        call loadSizedTilemap
+        call loadSizedTilemap_safe
       pop af
       ld (mapperSlot2Ctrl),a
       ret
@@ -2436,10 +2570,10 @@
       push af
         ld a,h
         cp >oldLunaPPtr
-        jr nz,@noMatch
+        jp nz,@noMatch
         ld a,l
         cp <oldLunaPPtr
-        jr nz,@noMatch
+        jp nz,@noMatch
         
         @grpMatch:
           pop af
@@ -2512,3 +2646,84 @@
     ret
 .ends
 
+
+
+.bank $00 slot 0
+.section "loadSizedTilemap safe" free
+  loadSizedTilemap_safe:
+    ld a,(hl)
+    sla a
+    ld c,a
+    inc hl
+    ld a,(hl)
+    ld b,a
+    inc hl
+    di 
+    -:
+    ; DO NOT DO THIS
+  ;      di 
+      ld a,e
+      out ($BF),a
+      ld a,d
+      add a,$78
+      out ($BF),a
+    ; DO NOT DO THIS
+  ;      ei 
+      push bc
+      ld b,c
+      ld c,$BE
+  ;      otir 
+      --:
+        push ix
+        pop ix
+        outi
+        jr nz,--
+      ex de,hl
+      ld c,$40
+      add hl,bc
+      ex de,hl
+      pop bc
+      djnz -
+    ei 
+    ret 
+.ends
+
+;========================================
+; need more space
+;========================================
+
+; initialization routine for stupid fucking jumping snail thing
+
+.bank $00 slot 0
+.org $2D41
+;.section "free space 1" SIZE $4D overwrite
+.section "free space 1" SIZE 14 overwrite
+  doBankedJump freeSpace1_ext
+.ends
+
+.slot 2
+.section "free space 2" superfree
+  freeSpace1_ext:
+    ld (ix+$22),$48
+    ld (ix+$2C),$FB
+    ld (ix+$2D),$FB
+    ld (ix+$2E),$0A
+    ld (ix+$2F),$0A
+    ld (ix+$28),$F8
+    ld (ix+$29),$F8
+    ld (ix+$2A),$10
+    ld (ix+$2B),$10
+    ld (ix+$14),$01
+    ld (ix+$10),$00
+    ld (ix+$11),$FF
+    ld (ix+$08),$20
+    ld (ix+$09),$FF
+    ld (ix+$19),$06
+    ld (ix+$3E),$04
+    inc (ix+$12)
+    ld a,($C231)
+    or a
+    ret z
+    ld (ix+$3E),$02
+    ret 
+.ends

@@ -43,6 +43,15 @@
   call bankedCall
 .endm
 
+; 14 bytes total
+.macro doBankedJump
+  ld (bankedCallA),a
+  ld (bankedCallHL),hl
+  ld a,:\1
+  ld hl,\1
+  jp bankedCall
+.endm
+
 ; TODO: reimplement
 ;.macro read8BitTable
 ;  rst $20

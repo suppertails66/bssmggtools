@@ -89,17 +89,21 @@
     ; set vdp dst
     ld c,vdpCtrlPort
     out (c),l
+    nop
     out (c),h
+    nop
     ; write data to data port
     ex de,hl
     dec c
     ld a,b
     -:
       .rept bytesPerTile
+        push ix
+        pop ix
         outi
       .endr
       dec a
-      jr nz,-
+      jp nz,-
     ret
   
   ;===================================
@@ -843,15 +847,15 @@
         out ($BF),a
         
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; read low byte
         in a,($BE)
         ld e,a
         
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; read high byte
         in a,($BE)
         ld d,a
@@ -866,15 +870,15 @@
     out ($BF),a
         
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; read low byte
     in a,($BE)
     ld e,a
     
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; read high byte
     in a,($BE)
     ld d,a
@@ -1004,15 +1008,15 @@
         
         ld a,e
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; write low byte
         out ($BE),a
         
         ld a,d
         ; waste cycles
-;        push iy
-;        pop iy
+        push iy
+        pop iy
         ; write high byte
         out ($BE),a
       ei
@@ -1027,15 +1031,15 @@
     
     ld a,e
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; write low byte
     out ($BE),a
     
     ld a,d
     ; waste cycles
-;    push iy
-;    pop iy
+    push iy
+    pop iy
     ; write high byte
     out ($BE),a
     
